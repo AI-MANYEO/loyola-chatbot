@@ -44,5 +44,5 @@ pip install -r requirements.txt
 
 #### 3. 메인 파일 실행
 ```bash
-python app.py
+python main.py
 ```
