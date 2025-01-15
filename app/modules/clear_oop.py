@@ -85,7 +85,7 @@ class CrawlerRunner:
             for sub_category in category["소분류"]:
                 sub_category_name = sub_category["이름"]
                 url = sub_category["URL"]
-                filename = f"{category_name}_{sub_category_name}.json"
+                filename = f"database/raw{category_name}_{sub_category_name}.json"
 
                 print(f"크롤링 중: {category_name} > {sub_category_name}")
                 if "세부메뉴" in sub_category:
