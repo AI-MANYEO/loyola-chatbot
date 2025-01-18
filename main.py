@@ -1,15 +1,26 @@
 from app.utils.logger import setup_logger
-import sys
-import os
-from app.modules.crawling import crawlLoggingTest
+from app.modules.search import get_answer
+import pandas as pd
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# Load the FAQ data
+faq_data = pd.read_csv("database/raw/로욜라컬렉션_추천_신착자료.csv")
 
-logger=setup_logger("main")
-logger.info("Loyola Chatbot 초기화 중....")
-
+def main():
+    print("도서관 챗봇에 오신 것을 환영합니다!")
+    print("질문을 입력해 주세요. 종료하려면 'exit'를 입력하세요.")
+    
+    while True:
+        # Get user input
+        user_query = input("\n[사용자 질문] > ")
+        
+        # Exit condition
+        if user_query.lower() == "exit":
+            print("챗봇을 종료합니다. 이용해 주셔서 감사합니다!")
+            break
+        
+        # Get the answer
+        answer = get_answer(faq_data, user_query)
+        print(f"[챗봇 답변] > {answer}")
 
 if __name__ == "__main__":
-    crawlLoggingTest()
-    print("success")
-    
+    main()

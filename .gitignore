@@ -12,3 +12,6 @@ venv/
 *.log
 
 # Test output
+notebooks/crawling.ipynb
+tests/
+app/modules/crawl.py
