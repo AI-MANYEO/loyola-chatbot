@@ -15,7 +15,7 @@ class FileManager:
     def save_to_json(data, filename):
         """JSON 데이터를 파일로 저장"""
         filename = FileManager.sanitize_filename(filename)
-        base_dir = "crawled_data_oop"
+        base_dir = "database/raw"
         os.makedirs(base_dir, exist_ok=True)
         filepath = os.path.join(base_dir, filename)
 
