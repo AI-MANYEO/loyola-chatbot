@@ -6,6 +6,7 @@ import json
 
 BASE_URL = "https://library.sogang.ac.kr/"
 
+
 # 하위 페이지 크롤링 함수
 def crawl_page(url, visited_urls=None):
     if visited_urls is None:
@@ -92,6 +93,7 @@ def main():
         json.dump(menu_data, f, ensure_ascii=False, indent=4)
 
     print(f"크롤링 완료! {len(menu_data)}개의 메뉴를 수집했고, 데이터는 {save_directory}/sogang_library_structured.json에 저장되었습니다.")
+
 
 if __name__ == "__main__":
     main()
