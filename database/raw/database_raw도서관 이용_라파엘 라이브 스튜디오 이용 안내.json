@@ -1,0 +1,14 @@
+{
+    "메뉴": "도서관 이용 > 라파엘 라이브 스튜디오 이용 안내",
+    "내용": {
+        "texts": [
+            "home\n도서관 이용시설 이용라파엘 라이브 스튜디오 이용 안내",
+            "촬영 스튜디오\n편집실",
+            "라파엘 라이브 스튜디오는 촬영 스튜디오와 편집실로 이루어진 영상 콘텐츠 제작 공간으로, 경제학과 김경환 명예·연구석학교수의 기부금으로 마련되었습니다.",
+            "시설전경\n\n\n\n\n\n\n\n\n장비 소개\n\n카메라1: Canon XF105 A (1대)\n카메라2: Canon VIXIA HF G70 (３대)\n촬영 및 편집용 PC\n촬영용 스위처: ATEM MINI PRO ISO\n촬영 S/W: OBS Studio\n오디오 믹서: FLOW8\n마이크(2대)\n스탠드 조명 (4대)\n모니터링 TV \n자동 크로마키: 흰색, 녹색, 청색 \n프롬프터 \n촬영석: 테이블 1대, 의자 2대\n판서용테블릿 (1대)\n스트림덱 (1대)\n\n\n\n운영 시간\n\n\n신청자격\n\n\n구분\n평일\n토요일\n공휴일\n일요일\n\n\n\n\n학기중\n10:00~16:00\n휴관\n\n\n방학중\n11:00~16:00\n휴관\n\n\n\n\n\n\n신청 방법\n\n시설 사용 최소 3일 전(월~금)까지 정보서비스팀 담당자에게 전화(02-705-8197)       또는 방문 신청하고 사용 신청서(도서관 홈페이지>도서관 소개>각종 양식 다운로드)를 제출\n1일 최대 2회, 1회 최대 2시간 이용 가능\n1달 최대 8시간 이용 가능\n사용 신청서\n\n\n\n문의\n\n\n담당부서 : 정보서비스팀\n전화번호  :  02-705-8197\n이메일  :  libsns@sogang.ac.kr"
+        ],
+        "tables": [
+            "<table class=\"mobileTable miw- default\">\n<caption>신청자격</caption>\n<thead>\n<tr>\n<th scope=\"col\" style=\"width:20%\">구분</th>\n<th scope=\"col\" style=\"width:20%\">평일</th>\n<th scope=\"col\" style=\"width:20%\">토요일</th>\n<th scope=\"col\" style=\"width:20%\">공휴일</th>\n<th scope=\"col\" style=\"width:20%\">일요일</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>학기중</td>\n<td>10:00~16:00</td>\n<td colspan=\"3\">휴관</td>\n</tr>\n<tr>\n<td>방학중</td>\n<td>11:00~16:00</td>\n<td colspan=\"3\">휴관</td>\n</tr>\n</tbody>\n</table>"
+        ]
+    }
+}
