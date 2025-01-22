@@ -15,3 +15,6 @@ venv/
 notebooks/crawling.ipynb
 tests/
 app/modules/crawl.py
+.env
+loyola-chatbot.git/
+replacements.txt
