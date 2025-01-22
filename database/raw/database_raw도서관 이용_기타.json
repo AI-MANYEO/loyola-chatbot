@@ -1,0 +1,13 @@
+{
+    "메뉴": "도서관 이용 > 기타",
+    "내용": {
+        "texts": [
+            "home\n도서관 이용이용자별 이용안내기타",
+            "불가",
+            "* 외부인은 자료실, 열람실 등 도서관 시설을 이용할 수 없습니다."
+        ],
+        "tables": [
+            "<table>\n<caption>기타</caption>\n<thead>\n<tr>\n<th scope=\"col\" style=\"width:13%\">구분</th>\n<th scope=\"col\" style=\"width:24%\">학점교환자</th>\n<th scope=\"col\" style=\"width:15%\">마포구내 초중고 교사</th>\n<th scope=\"col\" style=\"width:18%\">연세대/이화여대/홍익대 재학생</th>\n<th scope=\"col\" style=\"width:14%\">타대학 재학생</th>\n<th scope=\"col\" style=\"width:16%\">바로가기</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>출입</td>\n<td>모바일이용증</td>\n<td>신분증</td>\n<td>각 대학 학생증</td>\n<td>도서관열람의뢰서 및<br/> 각 대학 학생증</td>\n<td><a class=\"linkStyle3\" href=\"/htmlmanager/service/31\" title=\"모바일이용증 안내\">모바일이용증 안내</a></td>\n</tr>\n<tr>\n<td>자료대출</td>\n<td>3권 30일</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td><a class=\"linkStyle3\" href=\"/htmlmanager/service/10\" title=\"대출권수 및 기간\">대출권수 및 기간</a></td>\n</tr>\n<tr>\n<td>대출연장</td>\n<td>연장신청일로부터 15일까지 2회 연장 가능<br/>예약/연체도서 연장 불가</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td><a class=\"linkStyle3\" href=\"/htmlmanager/service/196\" title=\"대출/연장/예약\">대출/연장/예약</a></td>\n</tr>\n<tr>\n<td>지정자료 대출</td>\n<td>3권. 대출 다음날 오전 10시까지 반납<br/>연체료 시간당 100원</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>도서예약</td>\n<td>대출중 도서 예약 가능</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td><a class=\"linkStyle3\" href=\"/htmlmanager/service/196\" title=\"대출/연장/예약\">대출/연장/예약</a></td>\n</tr>\n<tr>\n<td>전자자료 교외이용</td>\n<td>홈페이지 로그인 후 이용 가능</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>희망자료 신청</td>\n<td colspan=\"4\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>타도서관 자료복사</td>\n<td colspan=\"4\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>타도서관 자료대출</td>\n<td colspan=\"4\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>타도서관 이용</td>\n<td colspan=\"4\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>일반열람실</td>\n<td>좌석 발권 후 이용 (X관 일반열람실은 대학원생 전용임)</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td><a class=\"linkStyle3\" href=\"/htmlmanager/service/21\" title=\"일반열람실 이용 안내\">일반열람실 이용 안내</a></td>\n</tr>\n<tr>\n<td>캐럴</td>\n<td colspan=\"4\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>스터디룸</td>\n<td>예약 후 이용</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n<tr>\n<td>무선랜</td>\n<td>SAINT ID, Password로 접속</td>\n<td colspan=\"3\"><p class=\"point\">불가</p></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+        ]
+    }
+}
