@@ -14,4 +14,11 @@ venv/
 # Test output
 notebooks/crawling.ipynb
 tests/
+<<<<<<< HEAD
 app/modules/crawl.py
+=======
+app/modules/crawl.py
+.env
+loyola-chatbot.git/
+replacements.txt
+>>>>>>> origin/hyunjin
