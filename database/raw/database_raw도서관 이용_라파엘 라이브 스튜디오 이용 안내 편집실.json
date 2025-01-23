@@ -1,0 +1,14 @@
+{
+    "메뉴": "도서관 이용 > 라파엘 라이브 스튜디오 이용 안내 편집실",
+    "내용": {
+        "texts": [
+            "home\n도서관 이용시설 이용라파엘 라이브 스튜디오 이용 안내",
+            "촬영 스튜디오\n편집실",
+            "라파엘 라이브 스튜디오는 촬영 스튜디오와 편집실로 이루어진 영상 콘텐츠 제작 공간으로, 경제학과 김경환 명예·연구석학교수의 기부금으로 마련되었습니다.",
+            "시설전경\n\n\n\n\n\n\n장비 소개\n\n편집용 PC 4대\n편집 S/W: 다빈치 리졸브 \n휴식용 테이블 및 의자 \n\n\n\n운영 시간\n\n\n신청자격\n\n\n구분\n평일\n토요일\n공휴일\n일요일\n\n\n\n\n학기중\n9:00~21:00\n10:00~16:00\n휴관\n\n\n방학중\n10:00~16:00\n10:00~16:00\n휴관\n\n\n\n\n\n\n신청 방법\n\n시설 사용 전 참고서비스데스크로 전화(02-705-8195) 또는 방문 신청\n1일 최대 2회, 1회 최대 2시간 이용 가능 \n\n\n\n문의\n\n\n담당부서 : 참고서비스데스크(정보서비스팀)\n전화번호  : 02-705-8195"
+        ],
+        "tables": [
+            "<table class=\"mobileTable miw- default\">\n<caption>신청자격</caption>\n<thead>\n<tr>\n<th scope=\"col\" style=\"width:20%\">구분</th>\n<th scope=\"col\" style=\"width:20%\">평일</th>\n<th scope=\"col\" style=\"width:20%\">토요일</th>\n<th scope=\"col\" style=\"width:20%\">공휴일</th>\n<th scope=\"col\" style=\"width:20%\">일요일</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>학기중</td>\n<td>9:00~21:00</td>\n<td colspan=\"2\">10:00~16:00</td>\n<td>휴관</td>\n</tr>\n<tr>\n<td>방학중</td>\n<td>10:00~16:00</td>\n<td>10:00~16:00</td>\n<td colspan=\"2\">휴관</td>\n</tr>\n</tbody>\n</table>"
+        ]
+    }
+}

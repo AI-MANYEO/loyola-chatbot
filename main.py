@@ -1,5 +1,6 @@
 from app.utils.logger import setup_logger
 <<<<<<< HEAD
+<<<<<<< HEAD
 from app.modules.search import get_answer
 import pandas as pd
 
@@ -26,6 +27,8 @@ def main():
 if __name__ == "__main__":
     main()
 =======
+=======
+>>>>>>> origin/yunji
 # from app.modules.search import get_answer
 from app.modules.save_chroma import load_data_to_chromadb
 from app.modules.generate_chroma import generate_response
@@ -53,5 +56,9 @@ if __name__ == "__main__":
     #load_data_to_chromadb()
     query=input("질문을 입력하세요: ")
     response=generate_response(query)
+<<<<<<< HEAD
     print("챗봇 응답: ", response)
 >>>>>>> origin/hyunjin
+=======
+    print("챗봇 응답: ", response)
+>>>>>>> origin/yunji
