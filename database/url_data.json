@@ -1,0 +1,135 @@
+[
+    {
+        "대분류": "자료검색",
+        "중분류": "Browse",
+        "소분류": [
+            {"이름": "학술DB", "URL": "https://library.sogang.ac.kr/datalist/ejs/list"},
+            {"이름": "동영상 강좌", "URL": "https://library.sogang.ac.kr/datalist/vod/list"}
+        ]
+    },
+    {
+        "대분류": "로욜라 컬렉션",
+        "중분류": "추천",
+        "소분류": [
+            {"이름": "인기자료", "URL": "https://library.sogang.ac.kr/favorloan/main?type=NEAR_MONTH&count=20"},
+            {"이름": "신착자료", "URL": "https://library.sogang.ac.kr/newarrival"}
+        ]
+    },
+    {
+        "대분류": "로욜라 컬렉션",
+        "중분류": "테마",
+        "소분류": [
+            {"이름": "서강필독서", "URL": "https://library.sogang.ac.kr/digicol/list/1"},
+            {"이름": "본교교수 저작물", "URL": "https://library.sogang.ac.kr/digicol/list/42"},
+            {"이름": "CGSI 기업연구 자료", "URL": "https://library.sogang.ac.kr/digicol/list/41"},
+            {"이름": "학위논문", "URL": "https://dcollection.sogang.ac.kr/dcollection/"}, 
+            {"이름": "취업·창업도서", "URL": "https://library.sogang.ac.kr/digicol/list/2"},
+            {"이름": "학술원 우수학술도서", "URL": "https://library.sogang.ac.kr/digicol/list/82"}
+        ]
+    },
+    {
+        "대분류": "연구학습지원",
+        "중분류": "지정자료",
+        "소분류": [
+            {"이름": "지정자료신청", "URL": "https://library.sogang.ac.kr/htmlmanager/service/81"}
+        ]
+    },
+    {
+        "대분류": "연구학습지원",
+        "중분류": "정보활용교육",
+        "소분류": [
+            {"이름": "교육안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/3"}
+        ]
+    },
+    {
+        "대분류": "연구학습지원",
+        "중분류": "연구지원",
+        "소분류": [
+            {"이름": "연구가이드", "URL": "https://library.sogang.ac.kr/htmlmanager/service/4"},
+            {"이름": "핵심 전자자료 가이드", "URL": "https://library.sogang.ac.kr/htmlmanager/service/5"},
+            {"이름": "표절예방시스템 Turnitin", "URL": "https://library.sogang.ac.kr/htmlmanager/service/7"},
+            {"이름": "참고문헌관리 EndNote/RefWorks", "URL": "https://library.sogang.ac.kr/htmlmanager/service/2163621"},
+            {"이름": "학위논문제출", "URL": "https://library.sogang.ac.kr/htmlmanager/service/9"},
+            {"이름": "등재 학술지 리스트", "URL": "https://library.sogang.ac.kr/htmlmanager/service/501"},
+            {"이름": "OA출판 및 APC(논문출판비용) 지원", "URL": "https://library.sogang.ac.kr/htmlmanager/service/5618421"}
+        ]
+    },
+    {
+        "대분류": "도서관 이용",
+        "중분류": "자료 이용",
+        "소분류": [
+            {"이름": "자료 대출 반납 안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/10"},
+            {"이름": "전자자료 이용 안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/13"},
+            {"이름": "희망자료 신청", "URL": "https://library.sogang.ac.kr/htmlmanager/service/16"},
+            {"이름": "타도서관 자료 대출", "URL": "https://library.sogang.ac.kr/htmlmanager/service/17"},
+            {"이름": "타도서관 자료 복사", "URL": "https://library.sogang.ac.kr/htmlmanager/service/18"},
+            {"이름": "서가에 없는 자료", "URL": "https://library.sogang.ac.kr/htmlmanager/service/19"}
+        ]
+    },
+    {
+        "대분류": "도서관 이용",
+        "중분류": "시설 이용",
+        "소분류": [
+            {"이름": "개관시간", "URL": "https://library.sogang.ac.kr/htmlmanager/service/20"},
+            {"이름": "일반열람실 및 스터디룸 이용안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/21"},
+            {"이름": "전시 및 행사 공간 이용안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/26"},
+            {"이름": "라파엘 라이브 스튜디오 이용 안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/4179621"},
+            {"이름": "캐럴 이용 신청", "URL": "https://library.sogang.ac.kr/htmlmanager/service/28"},
+            {"이름": "복사 출력 스캔 안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/29"},
+            {"이름": "무선랜 이용 안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/30"},
+            {"이름": "모바일 이용증 안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/31"},
+            {"이름": "타도서관 이용 신청", "URL": "https://library.sogang.ac.kr/htmlmanager/service/32"}
+        ]
+    },
+    {
+        "대분류": "도서관 이용",
+        "중분류": "이용자별 이용안내",
+        "소분류": [
+            {"이름": "학생", "URL": "https://library.sogang.ac.kr/htmlmanager/service/33"},
+            {"이름": "교직원", "URL": "https://library.sogang.ac.kr/htmlmanager/service/34"},
+            {"이름": "졸업생", "URL": "https://library.sogang.ac.kr/htmlmanager/service/35"},
+            {"이름": "도서관회원", "URL": "https://library.sogang.ac.kr/htmlmanager/service/36"},
+            {"이름": "협정기관", "URL": "https://library.sogang.ac.kr/htmlmanager/service/37"},
+            {"이름": "장애인", "URL": "https://library.sogang.ac.kr/htmlmanager/service/38"},
+            {"이름": "기타", "URL": "https://library.sogang.ac.kr/htmlmanager/service/39"}
+        ]
+    },
+    {
+        "대분류": "도서관 소개",
+        "중분류": "로욜라 도서관",
+        "소분류": [
+            {"이름": "연혁", "URL": "https://library.sogang.ac.kr/htmlmanager/service/40"},
+            {"이름": "자료현황", "URL": "https://library.sogang.ac.kr/htmlmanager/service/41"},
+            {"이름": "시설현황", "URL": "https://library.sogang.ac.kr/htmlmanager/service/42"},
+            {"이름": "조직 및 업무별 연락처", "URL": "https://library.sogang.ac.kr/htmlmanager/service/43"},
+            {"이름": "규정", "URL": "https://library.sogang.ac.kr/htmlmanager/service/44"},
+            {"이름": "비전", "URL": "https://library.sogang.ac.kr/htmlmanager/service/46"},
+            {"이름": "오시는 길/층별 안내", "URL": "https://library.sogang.ac.kr/htmlmanager/service/83"}
+        ]
+    },
+    {
+        "대분류": "도서관 소개",
+        "중분류": "분관안내",
+        "소분류": [
+            {"이름": "법학전문도서", "URL": "https://library.sogang.ac.kr/law"}
+    
+        ]
+    },
+    {
+        "대분류": "도서관 소개",
+        "중분류": "알림/문의",
+        "소분류": [
+            {"이름": "FAQ", "URL": "https://library.sogang.ac.kr/faqlib/faq"}
+        
+        ]
+    },
+    {
+        "대분류": "도서관 소개",
+        "중분류": "도서관 기부",
+        "소분류": [
+            {"이름": "자료기증", "URL": "https://library.sogang.ac.kr/htmlmanager/service/49"}
+        
+        ]
+    }
+    
+]
