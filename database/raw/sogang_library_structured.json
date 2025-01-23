@@ -7,11 +7,9 @@
         "description": []
     },
     {
-        "category": "자료검색",
-        "subcategory": "Search",
         "url": "https://library.sogang.ac.kr/searchTotal?mId=10101000",
-        "title": "통합검색",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "자료검색",
@@ -91,11 +89,9 @@
         "description": []
     },
     {
-        "category": "로욜라 컬렉션",
-        "subcategory": "추천",
         "url": "https://library.sogang.ac.kr/favorloan/main?type=NEAR_MONTH&count=20",
-        "title": "인기자료",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "로욜라 컬렉션",
@@ -154,11 +150,9 @@
         "description": []
     },
     {
-        "category": "No Category",
-        "subcategory": "No Subcategory",
         "url": "https://library.sogang.ac.kr/",
-        "title": "No Title",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "연구학습지원",
@@ -168,11 +162,9 @@
         "description": []
     },
     {
-        "category": "연구학습지원",
-        "subcategory": "지정자료",
         "url": "https://library.sogang.ac.kr/coursereserves/search/alpa",
-        "title": "지정자료검색",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "연구학습지원",
@@ -560,11 +552,9 @@
         ]
     },
     {
-        "category": "No Category",
-        "subcategory": "No Subcategory",
         "url": "https://library.sogang.ac.kr/",
-        "title": "No Title",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "도서관 이용",
@@ -655,92 +645,9 @@
         ]
     },
     {
-        "category": "도서관 이용",
-        "subcategory": "자료 이용",
         "url": "https://library.sogang.ac.kr/htmlmanager/service/10",
-        "title": "자료 대출 반납 안내",
-        "description": [
-            {
-                "section": "대출권수 및 기간",
-                "content": [
-                    {
-                        "caption": "대출권수 및 기간",
-                        "columns": [
-                            "구분",
-                            "대출연장",
-                            "학부생(재학,휴학,수료)",
-                            "대학원생(재학,휴학,수료)",
-                            "교수",
-                            "교내발령교수 / 직원 강사 / 부설연구원 / 예수회회원",
-                            "특별회원/ 졸업생대출회원",
-                            "추천회원/ 협정기관회원",
-                            "학점교환자"
-                        ],
-                        "rows": [
-                            [
-                                "단행본,SM자료",
-                                "대출기간의1/2,2회가능",
-                                "20권, 15일",
-                                "40권, 30일",
-                                "80권, 120일",
-                                "40권, 60일",
-                                "10권, 30일",
-                                "5권, 30일",
-                                "3권, 30일"
-                            ],
-                            [
-                                "AV자료",
-                                "불가",
-                                "10개, 7일",
-                                "10개, 7일",
-                                "10개, 7일",
-                                "10개, 7일",
-                                "10개, 7일",
-                                "5개, 7일",
-                                "3개, 7일"
-                            ],
-                            [
-                                "지정자료",
-                                "불가",
-                                "3권,익일오전10시",
-                                "2권,익일오전10시",
-                                "-",
-                                "-",
-                                "-",
-                                "-",
-                                "3권,익일오전10시"
-                            ],
-                            [
-                                "필독자료",
-                                "4일, 2회가능",
-                                "20권, 7일",
-                                "40권, 7일",
-                                "80권, 7일",
-                                "40권, 7일",
-                                "10권, 7일",
-                                "5권, 7일",
-                                "3권, 7일"
-                            ],
-                            [
-                                "방학중장기대출",
-                                "불가",
-                                "7권, 80일",
-                                "-",
-                                "-",
-                                "-",
-                                "-",
-                                "-",
-                                "-"
-                            ]
-                        ]
-                    }
-                ]
-            },
-            {
-                "section": "문의",
-                "content": []
-            }
-        ]
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "도서관 이용",
@@ -2807,11 +2714,9 @@
         ]
     },
     {
-        "category": "No Category",
-        "subcategory": "No Subcategory",
         "url": "https://library.sogang.ac.kr/",
-        "title": "No Title",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "도서관 소개",
@@ -2821,11 +2726,9 @@
         "description": []
     },
     {
-        "category": "도서관 소개",
-        "subcategory": "로욜라 도서관",
         "url": "https://library.sogang.ac.kr/htmlmanager/service/40",
-        "title": "연혁",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "도서관 소개",
@@ -3900,11 +3803,9 @@
         ]
     },
     {
-        "category": "No Category",
-        "subcategory": "No Subcategory",
         "url": "https://library.sogang.ac.kr/",
-        "title": "No Title",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "No Category",
@@ -3914,11 +3815,9 @@
         "description": []
     },
     {
-        "category": "No Category",
-        "subcategory": "No Subcategory",
         "url": "https://library.sogang.ac.kr/myloan/list",
-        "title": "로그인",
-        "description": []
+        "description": "Already visited",
+        "content": []
     },
     {
         "category": "No Category",
@@ -4005,10 +3904,8 @@
         "description": []
     },
     {
-        "category": "No Category",
-        "subcategory": "No Subcategory",
         "url": "https://library.sogang.ac.kr/",
-        "title": "No Title",
-        "description": []
+        "description": "Already visited",
+        "content": []
     }
 ]

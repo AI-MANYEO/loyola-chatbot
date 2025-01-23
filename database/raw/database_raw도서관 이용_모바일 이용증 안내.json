@@ -1,0 +1,10 @@
+{
+    "메뉴": "도서관 이용 > 모바일 이용증 안내",
+    "내용": {
+        "texts": [
+            "home\n도서관 이용시설 이용모바일 이용증 안내",
+            "이용안내\n\n플레이스토어 또는 앱스토어에서 ‘서강대학교’로 검색→‘서강대학교 모바일학생증/이용증’ 설치\n\n\n\n\nID, Password 입력 후 사용\n\nID: 학번, 사번, 도서관 ID\nPassword: SAINT Password 또는 도서관 Password\n\n\n\n\n\n모바일 이용증 앱 다운로드\n\n\n\n\n\n\n\n\n문의\n\n\n담당부서 : 지식정보기획팀 대출실\n전화번호  :  02-705-8191\n이메일  :  libcir2@sogang.ac.kr"
+        ],
+        "tables": []
+    }
+}
