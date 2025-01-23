@@ -1,0 +1,2410 @@
+[
+    {
+        "category": "자료검색",
+        "subcategory": "Search",
+        "url": "https://library.sogang.ac.kr/searchTotal?mId=10101000",
+        "title": "통합검색",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/searchTotal?mId=10101000",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Search",
+        "url": "https://library.sogang.ac.kr/search/toc",
+        "title": "소장자료검색",
+        "description": []
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Search",
+        "url": "https://library.sogang.ac.kr/search/dla",
+        "title": "전자자료검색",
+        "description": []
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Search",
+        "url": "https://library.sogang.ac.kr/eds/advanced",
+        "title": "학술논문(Articles)검색",
+        "description": []
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Search",
+        "url": "https://library.sogang.ac.kr/local/html/citationLinker",
+        "title": "참고문헌검색",
+        "description": []
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Browse",
+        "url": "https://library.sogang.ac.kr/searchA/ejz",
+        "title": "전자저널",
+        "description": [
+            {
+                "section": "Search Area",
+                "content": {
+                    "가나다ABC": "https://library.sogang.ac.kr/",
+                    "전체": "https://library.sogang.ac.kr/?aq=TOTAL",
+                    "가": "https://library.sogang.ac.kr/?aq=ㄱ",
+                    "나": "https://library.sogang.ac.kr/?aq=ㄴ",
+                    "다": "https://library.sogang.ac.kr/?aq=ㄷ",
+                    "라": "https://library.sogang.ac.kr/?aq=ㄹ",
+                    "마": "https://library.sogang.ac.kr/?aq=ㅁ",
+                    "바": "https://library.sogang.ac.kr/?aq=ㅂ",
+                    "사": "https://library.sogang.ac.kr/?aq=ㅅ",
+                    "아": "https://library.sogang.ac.kr/?aq=ㅇ",
+                    "자": "https://library.sogang.ac.kr/?aq=ㅈ",
+                    "차": "https://library.sogang.ac.kr/?aq=ㅊ",
+                    "카": "https://library.sogang.ac.kr/?aq=ㅋ",
+                    "타": "https://library.sogang.ac.kr/?aq=ㅌ",
+                    "파": "https://library.sogang.ac.kr/?aq=ㅍ",
+                    "하": "https://library.sogang.ac.kr/?aq=ㅎ",
+                    "A": "https://library.sogang.ac.kr/?aq=a",
+                    "B": "https://library.sogang.ac.kr/?aq=b",
+                    "C": "https://library.sogang.ac.kr/?aq=c",
+                    "D": "https://library.sogang.ac.kr/?aq=d",
+                    "E": "https://library.sogang.ac.kr/?aq=e",
+                    "F": "https://library.sogang.ac.kr/?aq=f",
+                    "G": "https://library.sogang.ac.kr/?aq=g",
+                    "H": "https://library.sogang.ac.kr/?aq=h",
+                    "I": "https://library.sogang.ac.kr/?aq=i",
+                    "J": "https://library.sogang.ac.kr/?aq=j",
+                    "K": "https://library.sogang.ac.kr/?aq=k",
+                    "L": "https://library.sogang.ac.kr/?aq=l",
+                    "M": "https://library.sogang.ac.kr/?aq=m",
+                    "N": "https://library.sogang.ac.kr/?aq=n",
+                    "O": "https://library.sogang.ac.kr/?aq=o",
+                    "P": "https://library.sogang.ac.kr/?aq=p",
+                    "Q": "https://library.sogang.ac.kr/?aq=q",
+                    "R": "https://library.sogang.ac.kr/?aq=r",
+                    "S": "https://library.sogang.ac.kr/?aq=s",
+                    "T": "https://library.sogang.ac.kr/?aq=t",
+                    "U": "https://library.sogang.ac.kr/?aq=u",
+                    "V": "https://library.sogang.ac.kr/?aq=v",
+                    "W": "https://library.sogang.ac.kr/?aq=w",
+                    "X": "https://library.sogang.ac.kr/?aq=x",
+                    "Y": "https://library.sogang.ac.kr/?aq=y",
+                    "Z": "https://library.sogang.ac.kr/?aq=z",
+                    "기타": "https://library.sogang.ac.kr/?aq=ETC"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Browse",
+        "url": "https://library.sogang.ac.kr/datalist/ejs/list",
+        "title": "학술DB",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "즐겨찾기": "",
+                        "No.": "1",
+                        "DB명": "ACM(Association for Computing Machinery) Digital Library Open",
+                        "내용": "컴퓨터 공학 관련 Journal & Magazines, Transactions, Proceedings,Newsletter 등 60만건 이상의 원문 제공컴퓨터 공학 관련 Journal & Magazines, Transactions, Proceedings,Newsletter 등 60만건 이상의 원문 제공Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "2",
+                        "DB명": "ACS (American Chemical Society)",
+                        "내용": "미국화학학회에서 발행하는 저널 원문 및 ACS Archive 제공2021년부터 All Publications 이용 가능미국화학학회에서 발행하는 저널 원문 및 ACS Archive 제공2021년부터 All Publications 이용 가능Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "3",
+                        "DB명": "AIP (American Institute of Physics)",
+                        "내용": "미국물리학회에서 제공하는 전자저널(10종), Proceedings의 원문 제공미국물리학회에서 제공하는 전자저널(10종), Proceedings의 원문 제공Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "4",
+                        "DB명": "AMS (American Mathematical Society)",
+                        "내용": "미국수학회(AMS)에서 발행된 저널 10종의 원문 제공AMS는 1888년 수학연구와 철학을 목적으로 설립된 학회로서 미국 및 전 세계적으로 30,000명 이상의 개인회원과 570 여 기관을 회원으로 보유하고 있음미국수학회(AMS)에서 발행된 저널 10종의 원문 제공AMS는 1888년 수학연구와 철학을 목적으로 설립된 학회로서 미국 및 전 세계적으로 30,000명 이상의 개인회원과 570 여 기관을 회원으로 보유하고 있음Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "5",
+                        "DB명": "APS (American Physical Society)",
+                        "내용": "미국물리학회에서 발행된 저널 13종의 원문 제공미국물리학회에서 발행된 저널 13종의 원문 제공Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "6",
+                        "DB명": "ASM (American Society for Microbiology)",
+                        "내용": "미국미생물학회(American Society for Microbiology)에서 출간하는 저널 12종의 원문 제공ASM은 미생물학 분야에서 세계적으로 가장 오랜 역사와 큰 규모를 가진 학회이며 1899년 59명의 과학자들로부터 시작되어 현재 전세계 39,000명 이상의 회원으로 구성됨미국미생물학회(American Society for Microbiology)에서 출간하는 저널 12종의 원문 제공ASM은 미생물학 분야에서 세계적으로 가장 오랜 역사와 큰 규모를 가진 학회이며 1899년 59명의 과학자들로부터 시작되어 현재 전세계 39,000명 이상의 회원으로 구성됨Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "7",
+                        "DB명": "ASME DL (American Society of Mechanical Engineers Digital Library)",
+                        "내용": "미국기계공학회에서 제공하는 전체 저널의 원문 제공미국기계공학회에서 제공하는 전체 저널의 원문 제공Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "8",
+                        "DB명": "ASPB (American Society of Plant Biologists)",
+                        "내용": "미국식물학회(American Society of Plant Biologists : 이하 ASPB)에서 제공하는 식물학분야 저널 2종의 원문제공Plant Cell  http://www.plantcell.org/Plant Physiology  http://www.plantphysiol.org/미국식물학회(American Society of Plant Biologists : 이하 ASPB)에서 제공하는 식물학분야 저널 2종의 원문제공Plant Cell  http://www.plantcell.org/Plant Physiology  http://www.plantphysiol.org/Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "9",
+                        "DB명": "ASU(Academic Search Ultimate) : EBSCO",
+                        "내용": "전 주제 분야의 해외 학술 데이터베이스로 9,600여 종 이상의 학술저널 및 매거진의 원문 제공심리학(APA PsycINFO) 교육학(ERIC) 공학 (Ei compendex) 의생명학(EMBASE) 물리/공학(Inspec)등 각 분야 세계 최고 권위의 서지(Index) 데이터베이스에 포함된 저널 원문(Full-text)제공유럽, 아시아, 아프리카, 오세아니아,라틴아메리카 등 세계주요 지역에서 발행된 저널의 원문(Full text) 제공75,000건 이상의 AP(Associate Press) 제공 영상 수록전 주제 분야의 해외 학술 데이터베이스로 9,600여 종 이상의 학술저널 및 매거진의 원문 제공심리학(APA PsycINFO) 교육학(ERIC) 공학 (Ei compendex) 의생명학(EMBASE) 물리/공학(Inspec)등 각 분야 세계 최고 권위의 서지(Index) 데이터베이스에 포함된 저널 원문(Full-text)제공유럽, 아시아, 아프리카, 오세아니아,라틴아메리카 등 세계주요 지역에서 발행된 저널의 원문(Full text) 제공75,000건 이상의 AP(Associate Press) 제공 영상 수록Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "10",
+                        "DB명": "ATLA Religion Database with ATLASerials",
+                        "내용": "미국신학도서관협회에서 제작된 전 세계 신학분야의 출판물 (저널/단행본)에 대한 정보를 수록서지정보를 제공하는 ATLA Religion Database와 Full Text 서비스를 하는 ATLA Serials가 함께 제공되는 데이터베이스미국신학도서관협회에서 제작된 전 세계 신학분야의 출판물 (저널/단행본)에 대한 정보를 수록서지정보를 제공하는 ATLA Religion Database와 Full Text 서비스를 하는 ATLA Serials가 함께 제공되는 데이터베이스Close",
+                        "계정": "",
+                        "이용안내": "이용매뉴얼"
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "가나다순 검색": "https://library.sogang.ac.kr/",
+                    "전체": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=",
+                    "가": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㄱ",
+                    "나": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㄴ",
+                    "다": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㄷ",
+                    "라": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㄹ",
+                    "마": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅁ",
+                    "바": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅂ",
+                    "사": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅅ",
+                    "아": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅇ",
+                    "자": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅈ",
+                    "차": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅊ",
+                    "카": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅋ",
+                    "타": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅌ",
+                    "파": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅍ",
+                    "하": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=ㅎ",
+                    "A": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=a",
+                    "B": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=b",
+                    "C": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=c",
+                    "D": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=d",
+                    "E": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=e",
+                    "F": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=f",
+                    "G": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=g",
+                    "H": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=h",
+                    "I": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=i",
+                    "J": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=j",
+                    "K": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=k",
+                    "L": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=l",
+                    "M": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=m",
+                    "N": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=n",
+                    "O": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=o",
+                    "P": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=p",
+                    "Q": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=q",
+                    "R": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=r",
+                    "S": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=s",
+                    "T": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=t",
+                    "U": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=u",
+                    "V": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=v",
+                    "W": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=w",
+                    "X": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=x",
+                    "Y": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=y",
+                    "Z": "https://library.sogang.ac.kr/datalist/ejs/list?mId=&lmt2=&aq=z"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "12345"
+            },
+            {
+                "section": "Tabs",
+                "content": [
+                    {
+                        "tab_name": "주제별 리스트",
+                        "content": {
+                            "category": "자료검색",
+                            "subcategory": "Browse",
+                            "url": "https://library.sogang.ac.kr/searchS/ejs",
+                            "title": "학술DB",
+                            "description": [
+                                {
+                                    "section": "Paging",
+                                    "content": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Browse",
+        "url": "https://library.sogang.ac.kr/searchA/ebz",
+        "title": "전자책",
+        "description": [
+            {
+                "section": "Search Area",
+                "content": {
+                    "가나다ABC": "https://library.sogang.ac.kr/",
+                    "전체": "https://library.sogang.ac.kr/?aq=TOTAL",
+                    "가": "https://library.sogang.ac.kr/?aq=ㄱ",
+                    "나": "https://library.sogang.ac.kr/?aq=ㄴ",
+                    "다": "https://library.sogang.ac.kr/?aq=ㄷ",
+                    "라": "https://library.sogang.ac.kr/?aq=ㄹ",
+                    "마": "https://library.sogang.ac.kr/?aq=ㅁ",
+                    "바": "https://library.sogang.ac.kr/?aq=ㅂ",
+                    "사": "https://library.sogang.ac.kr/?aq=ㅅ",
+                    "아": "https://library.sogang.ac.kr/?aq=ㅇ",
+                    "자": "https://library.sogang.ac.kr/?aq=ㅈ",
+                    "차": "https://library.sogang.ac.kr/?aq=ㅊ",
+                    "카": "https://library.sogang.ac.kr/?aq=ㅋ",
+                    "타": "https://library.sogang.ac.kr/?aq=ㅌ",
+                    "파": "https://library.sogang.ac.kr/?aq=ㅍ",
+                    "하": "https://library.sogang.ac.kr/?aq=ㅎ",
+                    "A": "https://library.sogang.ac.kr/?aq=a",
+                    "B": "https://library.sogang.ac.kr/?aq=b",
+                    "C": "https://library.sogang.ac.kr/?aq=c",
+                    "D": "https://library.sogang.ac.kr/?aq=d",
+                    "E": "https://library.sogang.ac.kr/?aq=e",
+                    "F": "https://library.sogang.ac.kr/?aq=f",
+                    "G": "https://library.sogang.ac.kr/?aq=g",
+                    "H": "https://library.sogang.ac.kr/?aq=h",
+                    "I": "https://library.sogang.ac.kr/?aq=i",
+                    "J": "https://library.sogang.ac.kr/?aq=j",
+                    "K": "https://library.sogang.ac.kr/?aq=k",
+                    "L": "https://library.sogang.ac.kr/?aq=l",
+                    "M": "https://library.sogang.ac.kr/?aq=m",
+                    "N": "https://library.sogang.ac.kr/?aq=n",
+                    "O": "https://library.sogang.ac.kr/?aq=o",
+                    "P": "https://library.sogang.ac.kr/?aq=p",
+                    "Q": "https://library.sogang.ac.kr/?aq=q",
+                    "R": "https://library.sogang.ac.kr/?aq=r",
+                    "S": "https://library.sogang.ac.kr/?aq=s",
+                    "T": "https://library.sogang.ac.kr/?aq=t",
+                    "U": "https://library.sogang.ac.kr/?aq=u",
+                    "V": "https://library.sogang.ac.kr/?aq=v",
+                    "W": "https://library.sogang.ac.kr/?aq=w",
+                    "X": "https://library.sogang.ac.kr/?aq=x",
+                    "Y": "https://library.sogang.ac.kr/?aq=y",
+                    "Z": "https://library.sogang.ac.kr/?aq=z",
+                    "기타": "https://library.sogang.ac.kr/?aq=ETC"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "12345"
+            },
+            {
+                "section": "Tabs",
+                "content": [
+                    {
+                        "tab_name": "전자책 서비스",
+                        "content": {
+                            "category": "자료검색",
+                            "subcategory": "Browse",
+                            "url": "https://library.sogang.ac.kr/datalist/ebk/list",
+                            "title": "전자책",
+                            "description": [
+                                {
+                                    "section": "Table Data",
+                                    "content": [
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "1",
+                                            "서비스명": "ATLA Historical Monographs Collection Series1",
+                                            "내용": "ATLA제공, 13세기 후반~ 1922년까지 역사적 가치가 높은 단행본 약 3만권 제공신학을 중심으로 중세이후 근대까지 수백년의 정치,경제,철학,역사,문학 등 다양한 주제 포괄ATLA제공, 13세기 후반~ 1922년까지 역사적 가치가 높은 단행본 약 3만권 제공신학을 중심으로 중세이후 근대까지 수백년의 정치,경제,철학,역사,문학 등 다양한 주제 포괄Close",
+                                            "이용안내": "이용매뉴얼"
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "2",
+                                            "서비스명": "ATLA Historical Monographs Collection Series2",
+                                            "내용": "ATLA제공, 13세기 후반~ 1922년까지 역사적 가치가 높은 단행본 약 3만권 제공신학을 중심으로 중세이후 근대까지 수백년의 정치,경제,철학,역사,문학 등 다양한 주제 포괄ATLA제공, 13세기 후반~ 1922년까지 역사적 가치가 높은 단행본 약 3만권 제공신학을 중심으로 중세이후 근대까지 수백년의 정치,경제,철학,역사,문학 등 다양한 주제 포괄Close",
+                                            "이용안내": ""
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "3",
+                                            "서비스명": "Cambridge University Press eBook : Books for Research & Coursebooks",
+                                            "내용": "1. Cambridge University Press에서 제공하는 전 주제 분야 해외 전자책으로, Books for Research와 Coursebooks 제공 : EBA영구소장 도서 135 Title 제공2. 대출 개념 없이 챕터 별로 열람, 저장, 인쇄 가능하며, 전체 선택 후 저장하면 파일이 챕터 별로 저장됨3. 별도의 앱은 없으며, 브라우저 앱에서 PC와 동일하게 이용 가능4. 이용 안내 : https://www.cambridge.org/core/help/training/user-guides-and-videos/korean2021 대학혁신지원사업 지원으로 구독1. Cambridge University Press에서 제공하는 전 주제 분야 해외 전자책으로, Books for Research와 Coursebooks 제공 : EBA영구소장 도서 135 Title 제공2. 대출 개념 없이 챕터 별로 열람, 저장, 인쇄 가능하며, 전체 선택 후 저장하면 파일이 챕터 별로 저장됨3. 별도의 앱은 없으며, 브라우저 앱에서 PC와 동일하게 이용 가능4. 이용 안내 : https://www.cambridge.org/core/help/training/user-guides-and-videos/korean2021 대학혁신지원사업 지원으로 구독Close",
+                                            "이용안내": ""
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "4",
+                                            "서비스명": "EBSCOhost e-Book (=NetLibrary e-Book)",
+                                            "내용": "1. EBSCO에서 제공하는 전 주제 분야 해외 전자책으로, 약 4만 종의 전자책을 영구 제공2. PC 또는 브라우저 앱에서는 대출 개념 없이 열람, 저장, 인쇄가 가능하나, 책마다 저장 및 인쇄할 수 있는 페이지 수가 다름. 모바일 앱 이용 시 대출 기간(1~7일) 선택 후 이용 가능3. 모바일 앱(EBSCO Mobile) 이용을 위해서는 교내 IP 대역에서 개인회원 가입 필수(브라우저 앱 이용은 별도의 개인회원 가입 없이 서강대학교 기관회원으로 가능)1. EBSCO에서 제공하는 전 주제 분야 해외 전자책으로, 약 4만 종의 전자책을 영구 제공2. PC 또는 브라우저 앱에서는 대출 개념 없이 열람, 저장, 인쇄가 가능하나, 책마다 저장 및 인쇄할 수 있는 페이지 수가 다름. 모바일 앱 이용 시 대출 기간(1~7일) 선택 후 이용 가능3. 모바일 앱(EBSCO Mobile) 이용을 위해서는 교내 IP 대역에서 개인회원 가입 필수(브라우저 앱 이용은 별도의 개인회원 가입 없이 서강대학교 기관회원으로 가능)Close",
+                                            "이용안내": "이용매뉴얼"
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "5",
+                                            "서비스명": "GVRL (Gale Virtual Reference Library) - KERIS Collection",
+                                            "내용": "1. 전 주제 분야 해외 참고도서로, 6천여 종 이상의 타이틀 수록2. KERIS 대학라이선스로 1년간 무상 제공3. 도서관 홈페이지 로그인 후, 대출 개념 없이 챕터별로 열람, 저장, 인쇄 가능4. 별도의 앱은 없으며, 브라우저 앱에서 PC와 동일하게 이용 가능1. 전 주제 분야 해외 참고도서로, 6천여 종 이상의 타이틀 수록2. KERIS 대학라이선스로 1년간 무상 제공3. 도서관 홈페이지 로그인 후, 대출 개념 없이 챕터별로 열람, 저장, 인쇄 가능4. 별도의 앱은 없으며, 브라우저 앱에서 PC와 동일하게 이용 가능Close",
+                                            "이용안내": "이용매뉴얼"
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "6",
+                                            "서비스명": "Oxford Scholarship Online (EBA) 전자책",
+                                            "내용": "2023년도 대학혁신지원사업의 지원으로 구독- Oxford University Press에서 출판된 최고의 학술서 6천종의 전자책 제공- 정치외교학, 철학, 물리학 분야 전자책 제공2023년도 대학혁신지원사업의 지원으로 구독- Oxford University Press에서 출판된 최고의 학술서 6천종의 전자책 제공- 정치외교학, 철학, 물리학 분야 전자책 제공Close",
+                                            "이용안내": ""
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "7",
+                                            "서비스명": "ProQuest Ebook Central",
+                                            "내용": "1. ProQuest에서 제공하는 전 주제 분야 해외 전자책2. 교내 IP 대역에서 개인회원 가입 후, 열람 및 대출 가능 (대출일 1/3/5/7일 중 선택)3. 도서관에서 구입하지 않은 자료도 5분 미리보기 가능하며, 전문 열람을 희망하는 경우 희망자료 신청4. PC 또는 브라우저 앱으로 열람하거나, 대출해서 Adobe Digital Editions 앱 또는 프로그램으로 이용 가능5. 이용 가이드 URL : http://proquest.libguides.com/ebckorea1. ProQuest에서 제공하는 전 주제 분야 해외 전자책2. 교내 IP 대역에서 개인회원 가입 후, 열람 및 대출 가능 (대출일 1/3/5/7일 중 선택)3. 도서관에서 구입하지 않은 자료도 5분 미리보기 가능하며, 전문 열람을 희망하는 경우 희망자료 신청4. PC 또는 브라우저 앱으로 열람하거나, 대출해서 Adobe Digital Editions 앱 또는 프로그램으로 이용 가능5. 이용 가이드 URL : http://proquest.libguides.com/ebckoreaClose",
+                                            "이용안내": "이용매뉴얼"
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "8",
+                                            "서비스명": "Wiley (Reference e-Book)",
+                                            "내용": "1. Wiley에서 제공하는 이공 분야 참고도서로, 17종 무제한 이용 가능 (※ 도서관에서 구입한 뒤 추가된 콘텐츠는 이용 불가)2. 대출 개념 없이 챕터별로 열람, 인쇄 가능3. 별도의 앱은 없으며, 브라우저 앱에서 PC와 동일하게 이용 가능1. Wiley에서 제공하는 이공 분야 참고도서로, 17종 무제한 이용 가능 (※ 도서관에서 구입한 뒤 추가된 콘텐츠는 이용 불가)2. 대출 개념 없이 챕터별로 열람, 인쇄 가능3. 별도의 앱은 없으며, 브라우저 앱에서 PC와 동일하게 이용 가능Close",
+                                            "이용안내": ""
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "9",
+                                            "서비스명": "Yes24 전자책",
+                                            "내용": "★ 처음 Yes24 전자책을 이용한다면, PC 또는 모바일 브라우저에서 전자책 1권을 “대출”받아야 ‘Yes24 도서관’ 앱 로그인이 가능함1. Yes24에서 제공하는 국내 전자책 187종 이용 가능2. 5책 7일 (1회 연장 가능) 대출 가능하며, 저장 불가3. PC에서는 도서관 홈페이지 로그인 후 사이트에 접속해 자료 대출 및 ‘Yes24 Viewer’로 열람4. Mobile에서는 ‘Yes24 도서관’ 앱을 다운로드 받아 도서관 홈페이지 ID/PW로 로그인하여 대출 후 열람★ 처음 Yes24 전자책을 이용한다면, PC 또는 모바일 브라우저에서 전자책 1권을 “대출”받아야 ‘Yes24 도서관’ 앱 로그인이 가능함1. Yes24에서 제공하는 국내 전자책 187종 이용 가능2. 5책 7일 (1회 연장 가능) 대출 가능하며, 저장 불가3. PC에서는 도서관 홈페이지 로그인 후 사이트에 접속해 자료 대출 및 ‘Yes24 Viewer’로 열람4. Mobile에서는 ‘Yes24 도서관’ 앱을 다운로드 받아 도서관 홈페이지 ID/PW로 로그인하여 대출 후 열람Close",
+                                            "이용안내": "이용매뉴얼"
+                                        },
+                                        {
+                                            "즐겨찾기": "",
+                                            "No.": "10",
+                                            "서비스명": "eBook Academic Collection",
+                                            "내용": "1. EBSCO에서 제공하는 전 주제 분야 해외 전자책으로, 500여 개의 출판사에서 제공하는 19만 여권의 전자책을 무제한 이용 가능2. 열람, 저장, 인쇄가 가능하나, 책마다 저장 및 인쇄할 수 있는 페이지 수가 다름3. 모바일 앱(EBSCO Mobile) 이용을 위해서는 교내 IP 대역에서 개인회원 가입 필수(브라우저 앱 이용은 별도의 개인회원 가입 없이 서강대학교 기관회원으로 가능)1. EBSCO에서 제공하는 전 주제 분야 해외 전자책으로, 500여 개의 출판사에서 제공하는 19만 여권의 전자책을 무제한 이용 가능2. 열람, 저장, 인쇄가 가능하나, 책마다 저장 및 인쇄할 수 있는 페이지 수가 다름3. 모바일 앱(EBSCO Mobile) 이용을 위해서는 교내 IP 대역에서 개인회원 가입 필수(브라우저 앱 이용은 별도의 개인회원 가입 없이 서강대학교 기관회원으로 가능)Close",
+                                            "이용안내": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section": "Search Area",
+                                    "content": {
+                                        "가나다순 검색": "https://library.sogang.ac.kr/",
+                                        "전체": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=",
+                                        "가": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㄱ",
+                                        "나": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㄴ",
+                                        "다": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㄷ",
+                                        "라": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㄹ",
+                                        "마": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅁ",
+                                        "바": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅂ",
+                                        "사": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅅ",
+                                        "아": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅇ",
+                                        "자": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅈ",
+                                        "차": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅊ",
+                                        "카": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅋ",
+                                        "타": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅌ",
+                                        "파": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅍ",
+                                        "하": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=ㅎ",
+                                        "A": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=a",
+                                        "B": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=b",
+                                        "C": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=c",
+                                        "D": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=d",
+                                        "E": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=e",
+                                        "F": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=f",
+                                        "G": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=g",
+                                        "H": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=h",
+                                        "I": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=i",
+                                        "J": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=j",
+                                        "K": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=k",
+                                        "L": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=l",
+                                        "M": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=m",
+                                        "N": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=n",
+                                        "O": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=o",
+                                        "P": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=p",
+                                        "Q": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=q",
+                                        "R": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=r",
+                                        "S": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=s",
+                                        "T": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=t",
+                                        "U": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=u",
+                                        "V": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=v",
+                                        "W": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=w",
+                                        "X": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=x",
+                                        "Y": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=y",
+                                        "Z": "https://library.sogang.ac.kr/datalist/ebk/list?mId=&lmt2=&aq=z"
+                                    }
+                                },
+                                {
+                                    "section": "Paging",
+                                    "content": "12"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Browse",
+        "url": "https://library.sogang.ac.kr/datalist/vod/list",
+        "title": "동영상 강좌",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "즐겨찾기": "",
+                        "No.": "1",
+                        "DB명": "WISE-STAT 통계분석 이러닝 강좌",
+                        "내용": "통계분석 및 리서치 실무 강좌 제공통계이론 및 조사벙법론, SPSS/SAS/AMOS 등을 이용한 통계분석과정, 마케팅리서치분석, 사회조사분석사 대비 동영상 강의 서비스통계분석 및 리서치 실무 강좌 제공통계이론 및 조사벙법론, SPSS/SAS/AMOS 등을 이용한 통계분석과정, 마케팅리서치분석, 사회조사분석사 대비 동영상 강의 서비스Close",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "2",
+                        "DB명": "디지털 문화 예술 강좌",
+                        "내용": "철학, 문학, 문화예술, 인문교양, 음악, 미술 등 다양한 210여종의 인문학 동영상 강좌 제공도서관 로그인 후 사용가능. (모바일 접속 서비스 동일)2019년부터 KoreaA2Z 서비스로부터 동영상강좌를 분리하여 제공함.철학, 문학, 문화예술, 인문교양, 음악, 미술 등 다양한 210여종의 인문학 동영상 강좌 제공도서관 로그인 후 사용가능. (모바일 접속 서비스 동일)2019년부터 KoreaA2Z 서비스로부터 동영상강좌를 분리하여 제공함.Close",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "3",
+                        "DB명": "북코스모스 도서요약 (북다이제스트)",
+                        "내용": "도서요약서비스- 신간도서의 핵심내용을 A4용지 10장내외로 요약 제공- 요약본을 전문성우의 녹음으로 오디오북 형태로 제공- 북세미나 (100여명의 명저자들의 동영상강의)- 어학클리닉 (영어, 일어, 중국어 동영상 강의)도시락 서비스- 매일 도서 요약본 또는 요약본의 오디오북 소개 등을 제공하는 문화도시락 서비스- PC 및 모바일 이용 가능모바일 북카페 서비스 이용 방법 (택1)- \"북도시락\" 전용앱 설치- 스마트폰 웹 브라우저 주소창에 http://msogang.bookcosmos.com 입력 후 아이디, 비밀번호 입력도서요약서비스- 신간도서의 핵심내용을 A4용지 10장내외로 요약 제공- 요약본을 전문성우의 녹음으로 오디오북 형태로 제공- 북세미나 (100여명의 명저자들의 동영상강의)- 어학클리닉 (영어, 일어, 중국어 동영상 강의)도시락 서비스- 매일 도서 요약본 또는 요약본의 오디오북 소개 등을 제공하는 문화도시락 서비스- PC 및 모바일 이용 가능모바일 북카페 서비스 이용 방법 (택1)- \"북도시락\" 전용앱 설치- 스마트폰 웹 브라우저 주소창에 http://msogang.bookcosmos.com 입력 후 아이디, 비밀번호 입력Close",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "4",
+                        "DB명": "아이티고 IT강좌",
+                        "내용": "2024학년도 대학혁신지원사업의 지원으로 구독IT 기초부터 개발자과정까지 컴퓨터 및 IT분야 동영상 강좌를 활용하여 IT 전문 능력 배양자격증 강좌 : 네트워크관리사, 사무자동화, 워드프로세서, 전산회계/세무, 정보보안, 정보처리, 컴퓨터활용능력, e-Test, GTQ, ITQ, MOS(MCAS), 기타자격증IT 실무강좌 : 2D 그래픽, CAD/3D 그래픽, 데이터베이스, 멀티미디어/동영상, 오피스/한글, 운영체제, 인터넷/홈페이지, 프로그래밍언어, 컴퓨터기초2024학년도 대학혁신지원사업의 지원으로 구독IT 기초부터 개발자과정까지 컴퓨터 및 IT분야 동영상 강좌를 활용하여 IT 전문 능력 배양자격증 강좌 : 네트워크관리사, 사무자동화, 워드프로세서, 전산회계/세무, 정보보안, 정보처리, 컴퓨터활용능력, e-Test, GTQ, ITQ, MOS(MCAS), 기타자격증IT 실무강좌 : 2D 그래픽, CAD/3D 그래픽, 데이터베이스, 멀티미디어/동영상, 오피스/한글, 운영체제, 인터넷/홈페이지, 프로그래밍언어, 컴퓨터기초Close",
+                        "이용안내": "이용매뉴얼"
+                    },
+                    {
+                        "즐겨찾기": "",
+                        "No.": "5",
+                        "DB명": "해커스 챔프스터디 사이버 교육",
+                        "내용": "2024년 대학혁신지원사업의 지원으로 구독★ 처음 해커스 모바일버전을 이용한다면, PC를 통해 최초 1회 접속한 기록이 있어야 \"해커스\" 모바일 버전 및 앱 로그인이 가능함외국어 / 취업 분야 총 199개 동영상 강의 (어학 : 144개, 금융/취업 : 55개)- 시험영어 (토익, 토플, 텝스, 아이엘츠) 동영상 강의- 일반영어 동영상 강의- 제2외국어 (중국어) 동영상 강의- 특수외국어 (스페인어, 프랑스어, 인도네시아어, 아랍어 ) 동영상 강의- 취업 (자기소개서, 직무적성검사, 면접) 동영상 강의- 금융 (금융권 취업, 금융 자격증) 동영상 강의- 공무원 시험 동영상 강의2024년 대학혁신지원사업의 지원으로 구독★ 처음 해커스 모바일버전을 이용한다면, PC를 통해 최초 1회 접속한 기록이 있어야 \"해커스\" 모바일 버전 및 앱 로그인이 가능함외국어 / 취업 분야 총 199개 동영상 강의 (어학 : 144개, 금융/취업 : 55개)- 시험영어 (토익, 토플, 텝스, 아이엘츠) 동영상 강의- 일반영어 동영상 강의- 제2외국어 (중국어) 동영상 강의- 특수외국어 (스페인어, 프랑스어, 인도네시아어, 아랍어 ) 동영상 강의- 취업 (자기소개서, 직무적성검사, 면접) 동영상 강의- 금융 (금융권 취업, 금융 자격증) 동영상 강의- 공무원 시험 동영상 강의Close",
+                        "이용안내": "이용매뉴얼"
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "가나다순 검색": "https://library.sogang.ac.kr/",
+                    "전체": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=",
+                    "가": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㄱ",
+                    "나": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㄴ",
+                    "다": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㄷ",
+                    "라": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㄹ",
+                    "마": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅁ",
+                    "바": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅂ",
+                    "사": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅅ",
+                    "아": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅇ",
+                    "자": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅈ",
+                    "차": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅊ",
+                    "카": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅋ",
+                    "타": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅌ",
+                    "파": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅍ",
+                    "하": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=ㅎ",
+                    "A": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=a",
+                    "B": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=b",
+                    "C": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=c",
+                    "D": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=d",
+                    "E": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=e",
+                    "F": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=f",
+                    "G": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=g",
+                    "H": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=h",
+                    "I": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=i",
+                    "J": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=j",
+                    "K": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=k",
+                    "L": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=l",
+                    "M": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=m",
+                    "N": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=n",
+                    "O": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=o",
+                    "P": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=p",
+                    "Q": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=q",
+                    "R": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=r",
+                    "S": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=s",
+                    "T": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=t",
+                    "U": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=u",
+                    "V": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=v",
+                    "W": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=w",
+                    "X": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=x",
+                    "Y": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=y",
+                    "Z": "https://library.sogang.ac.kr/datalist/vod/list?mId=&lmt2=&aq=z"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "1"
+            },
+            {
+                "section": "Tabs",
+                "content": [
+                    {
+                        "tab_name": "주제별 리스트",
+                        "content": {
+                            "category": "자료검색",
+                            "subcategory": "Browse",
+                            "url": "https://library.sogang.ac.kr/searchS/vod",
+                            "title": "동영상 강좌",
+                            "description": [
+                                {
+                                    "section": "Paging",
+                                    "content": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "자료검색",
+        "subcategory": "Browse",
+        "url": "https://library.sogang.ac.kr/newarrival/maz",
+        "title": "멀티미디어자료",
+        "description": [
+            {
+                "section": "Tabs",
+                "content": [
+                    {
+                        "tab_name": "제목별",
+                        "content": {
+                            "category": "자료검색",
+                            "subcategory": "Browse",
+                            "url": "https://library.sogang.ac.kr/searchA/maz",
+                            "title": "멀티미디어자료",
+                            "description": [
+                                {
+                                    "section": "Search Area",
+                                    "content": {
+                                        "가나다ABC": "https://library.sogang.ac.kr/",
+                                        "전체": "https://library.sogang.ac.kr/?aq=TOTAL",
+                                        "가": "https://library.sogang.ac.kr/?aq=ㄱ",
+                                        "나": "https://library.sogang.ac.kr/?aq=ㄴ",
+                                        "다": "https://library.sogang.ac.kr/?aq=ㄷ",
+                                        "라": "https://library.sogang.ac.kr/?aq=ㄹ",
+                                        "마": "https://library.sogang.ac.kr/?aq=ㅁ",
+                                        "바": "https://library.sogang.ac.kr/?aq=ㅂ",
+                                        "사": "https://library.sogang.ac.kr/?aq=ㅅ",
+                                        "아": "https://library.sogang.ac.kr/?aq=ㅇ",
+                                        "자": "https://library.sogang.ac.kr/?aq=ㅈ",
+                                        "차": "https://library.sogang.ac.kr/?aq=ㅊ",
+                                        "카": "https://library.sogang.ac.kr/?aq=ㅋ",
+                                        "타": "https://library.sogang.ac.kr/?aq=ㅌ",
+                                        "파": "https://library.sogang.ac.kr/?aq=ㅍ",
+                                        "하": "https://library.sogang.ac.kr/?aq=ㅎ",
+                                        "A": "https://library.sogang.ac.kr/?aq=a",
+                                        "B": "https://library.sogang.ac.kr/?aq=b",
+                                        "C": "https://library.sogang.ac.kr/?aq=c",
+                                        "D": "https://library.sogang.ac.kr/?aq=d",
+                                        "E": "https://library.sogang.ac.kr/?aq=e",
+                                        "F": "https://library.sogang.ac.kr/?aq=f",
+                                        "G": "https://library.sogang.ac.kr/?aq=g",
+                                        "H": "https://library.sogang.ac.kr/?aq=h",
+                                        "I": "https://library.sogang.ac.kr/?aq=i",
+                                        "J": "https://library.sogang.ac.kr/?aq=j",
+                                        "K": "https://library.sogang.ac.kr/?aq=k",
+                                        "L": "https://library.sogang.ac.kr/?aq=l",
+                                        "M": "https://library.sogang.ac.kr/?aq=m",
+                                        "N": "https://library.sogang.ac.kr/?aq=n",
+                                        "O": "https://library.sogang.ac.kr/?aq=o",
+                                        "P": "https://library.sogang.ac.kr/?aq=p",
+                                        "Q": "https://library.sogang.ac.kr/?aq=q",
+                                        "R": "https://library.sogang.ac.kr/?aq=r",
+                                        "S": "https://library.sogang.ac.kr/?aq=s",
+                                        "T": "https://library.sogang.ac.kr/?aq=t",
+                                        "U": "https://library.sogang.ac.kr/?aq=u",
+                                        "V": "https://library.sogang.ac.kr/?aq=v",
+                                        "W": "https://library.sogang.ac.kr/?aq=w",
+                                        "X": "https://library.sogang.ac.kr/?aq=x",
+                                        "Y": "https://library.sogang.ac.kr/?aq=y",
+                                        "Z": "https://library.sogang.ac.kr/?aq=z",
+                                        "기타": "https://library.sogang.ac.kr/?aq=ETC"
+                                    }
+                                },
+                                {
+                                    "section": "Paging",
+                                    "content": "12345"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/",
+        "title": "No Title",
+        "description": []
+    },
+    {
+        "category": "로욜라 컬렉션",
+        "subcategory": "추천",
+        "url": "https://library.sogang.ac.kr/favorloan/main?type=NEAR_MONTH&count=20",
+        "title": "인기자료",
+        "description": [
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            }
+        ]
+    },
+    {
+        "url": "https://library.sogang.ac.kr/favorloan/main?type=NEAR_MONTH&count=20",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "로욜라 컬렉션",
+        "subcategory": "추천",
+        "url": "https://library.sogang.ac.kr/newarrival",
+        "title": "신착자료",
+        "description": [
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/myrecom/main",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "로욜라 컬렉션",
+        "subcategory": "테마",
+        "url": "https://library.sogang.ac.kr/digicol/list/1",
+        "title": "서강필독서",
+        "description": []
+    },
+    {
+        "category": "로욜라 컬렉션",
+        "subcategory": "테마",
+        "url": "https://library.sogang.ac.kr/digicol/list/42",
+        "title": "본교교수 저작물",
+        "description": [
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "로욜라 컬렉션",
+        "subcategory": "테마",
+        "url": "https://library.sogang.ac.kr/digicol/list/41",
+        "title": "CGSI 기억연구 자료",
+        "description": [
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://dcollection.sogang.ac.kr/dcollection/",
+        "title": "No Title",
+        "description": []
+    },
+    {
+        "category": "로욜라 컬렉션",
+        "subcategory": "테마",
+        "url": "https://library.sogang.ac.kr/digicol/list/2",
+        "title": "취업ㆍ창업도서",
+        "description": [
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "로욜라 컬렉션",
+        "subcategory": "테마",
+        "url": "https://library.sogang.ac.kr/digicol/list/82",
+        "title": "학술원 우수학술도서",
+        "description": [
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "url": "https://library.sogang.ac.kr/",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "지정자료",
+        "url": "https://library.sogang.ac.kr/coursereserves/search/alpa",
+        "title": "지정자료검색",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "No.": "결과가 없습니다.",
+                        "교수명": "결과가 없습니다.",
+                        "교과목명": "결과가 없습니다.",
+                        "대학": "결과가 없습니다.",
+                        "학과": "결과가 없습니다.",
+                        "전공": "결과가 없습니다."
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "가나다 검색": "https://library.sogang.ac.kr/",
+                    "전체": "https://library.sogang.ac.kr/coursereserves/search/alpa?sk=ALL&ek=ALL&pn=1",
+                    "가": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=가&ek=나&pn=1",
+                    "나": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=나&ek=다&pn=1",
+                    "다": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=다&ek=라&pn=1",
+                    "라": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=라&ek=마&pn=1",
+                    "마": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=마&ek=바&pn=1",
+                    "바": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=바&ek=사&pn=1",
+                    "사": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=사&ek=아&pn=1",
+                    "아": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=아&ek=자&pn=1",
+                    "자": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=자&ek=차&pn=1",
+                    "차": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=차&ek=카&pn=1",
+                    "카": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=카&ek=타&pn=1",
+                    "타": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=타&ek=파&pn=1",
+                    "파": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=파&ek=하&pn=1",
+                    "하": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=하&ek=&pn=1",
+                    "A": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=A&ek=B&pn=1",
+                    "B": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=B&ek=C&pn=1",
+                    "C": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=C&ek=D&pn=1",
+                    "D": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=D&ek=E&pn=1",
+                    "E": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=E&ek=F&pn=1",
+                    "F": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=F&ek=G&pn=1",
+                    "G": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=G&ek=H&pn=1",
+                    "H": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=H&ek=I&pn=1",
+                    "I": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=I&ek=J&pn=1",
+                    "J": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=J&ek=K&pn=1",
+                    "K": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=K&ek=L&pn=1",
+                    "L": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=L&ek=M&pn=1",
+                    "M": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=M&ek=N&pn=1",
+                    "N": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=N&ek=O&pn=1",
+                    "O": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=O&ek=P&pn=1",
+                    "P": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=P&ek=Q&pn=1",
+                    "Q": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=Q&ek=R&pn=1",
+                    "R": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=R&ek=S&pn=1",
+                    "S": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=S&ek=T&pn=1",
+                    "T": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=T&ek=U&pn=1",
+                    "U": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=U&ek=V&pn=1",
+                    "V": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=V&ek=W&pn=1",
+                    "W": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=W&ek=X&pn=1",
+                    "X": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=X&ek=Y&pn=1",
+                    "Y": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=Y&ek=Z&pn=1",
+                    "Z": "https://library.sogang.ac.kr/coursereserves/search/alpa?type=subj&sk=Z&ek=&pn=1"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "url": "https://library.sogang.ac.kr/coursereserves/search/alpa",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "지정자료",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/81",
+        "title": "지정자료신청",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "정보활용교육",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/3",
+        "title": "교육안내",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "정보활용교육",
+        "url": "https://library.sogang.ac.kr/libsch/mixMonthlyCalendar/1",
+        "title": "교육일정",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "정보활용교육",
+        "url": "https://library.sogang.ac.kr/education/list",
+        "title": "정규교육신청",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "No.": "1",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "과제를 위한 도서관 정보검색교육",
+                        "교육일": "2025-01-07",
+                        "접수기간": "2024-12-12 ~ 2025-01-06",
+                        "신청인원/정원": "3/30",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "2",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "[비대면] 온라인 학위논문 제출 교육",
+                        "교육일": "2024-12-20",
+                        "접수기간": "2024-12-02 ~ 2024-12-19",
+                        "신청인원/정원": "19/100",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "3",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "[비대면] 온라인 학위논문 제출 교육",
+                        "교육일": "2024-12-19",
+                        "접수기간": "2024-12-02 ~ 2024-12-18",
+                        "신청인원/정원": "19/100",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "4",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "[비대면] 온라인 학위논문 제출 교육",
+                        "교육일": "2024-12-17",
+                        "접수기간": "2024-12-02 ~ 2024-12-16",
+                        "신청인원/정원": "36/100",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "5",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "과제를 위한 도서관 정보검색교육",
+                        "교육일": "2024-12-03",
+                        "접수기간": "2024-09-26 ~ 2024-12-02",
+                        "신청인원/정원": "2/30",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "6",
+                        "교육구분": "전자자료 이용교육",
+                        "교육명": "***대면교육입니다***[DB교육]Dataguide",
+                        "교육일": "2024-11-21",
+                        "접수기간": "2024-09-05 ~ 2024-11-20",
+                        "신청인원/정원": "17/50",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "7",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "(대학원생) 논문작성을 위한 정보활용특강(기초)",
+                        "교육일": "2024-11-21",
+                        "접수기간": "2024-09-26 ~ 2024-11-20",
+                        "신청인원/정원": "31/30",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "8",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "(대학원생) 논문작성을 위한 정보활용특강(심화)",
+                        "교육일": "2024-11-21",
+                        "접수기간": "2024-09-26 ~ 2024-11-20",
+                        "신청인원/정원": "31/30",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "9",
+                        "교육구분": "전자자료 이용교육",
+                        "교육명": "Reaxys 이용교육",
+                        "교육일": "2024-11-11",
+                        "접수기간": "2024-10-30 ~ 2024-11-10",
+                        "신청인원/정원": "1/100",
+                        "상태": "접수마감"
+                    },
+                    {
+                        "No.": "10",
+                        "교육구분": "도서관 이용교육",
+                        "교육명": "과제를 위한 도서관 정보검색교육",
+                        "교육일": "2024-11-07",
+                        "접수기간": "2024-09-26 ~ 2024-11-06",
+                        "신청인원/정원": "4/30",
+                        "상태": "접수마감"
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/edusupp/write",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "정보활용교육",
+        "url": "https://library.sogang.ac.kr/bbs/list/5",
+        "title": "교육자료",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "No.": "1",
+                        "제목": "온라인 학위논문 제출 이용교육 (2025년 2월 졸업)",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-12-23",
+                        "조회수": "276",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "2",
+                        "제목": "EIKON with Datastream(2024.9.27)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-09-23",
+                        "조회수": "51",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "3",
+                        "제목": "Turnitin 이용교육(교원용 2024.9.26)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-09-23",
+                        "조회수": "35",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "4",
+                        "제목": "Turnitin 이용교육(학생용 2024.09.26)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-09-23",
+                        "조회수": "53",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "5",
+                        "제목": "Refworks 이용교육(2024.9.26)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-09-23",
+                        "조회수": "48",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "6",
+                        "제목": "Statista 이용교육(2024.9.25)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-09-23",
+                        "조회수": "41",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "7",
+                        "제목": "EndNote 이용교육(2024.9.24)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-09-23",
+                        "조회수": "61",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "8",
+                        "제목": "EDS 이용교육 (2024.9.23)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-09-19",
+                        "조회수": "51",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "9",
+                        "제목": "Wiley Open Access : 연구자를 위한 Webinar",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-05-08",
+                        "조회수": "60",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "10",
+                        "제목": "JCR (Journal Citation Reports) 교육(2024.3.20)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-03-20",
+                        "조회수": "344",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "11",
+                        "제목": "EIKON with Datastrem(2024.3.22)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-03-14",
+                        "조회수": "56",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "12",
+                        "제목": "Turnitin 이용교육(2024.3.21)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-03-14",
+                        "조회수": "83",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "13",
+                        "제목": "Refworks + PQDT 이용교육(2024.3.21)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-03-14",
+                        "조회수": "88",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "14",
+                        "제목": "Statista 이용교육(2024.3.20)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-03-14",
+                        "조회수": "115",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "15",
+                        "제목": "Endnote 이용교육(2024.3.19)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-03-14",
+                        "조회수": "120",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "16",
+                        "제목": "EBSCO Discovery Service 이용교육(2024.3.18)",
+                        "작성자": "창의지식협력팀(학술DB)",
+                        "작성일": "2024-03-13",
+                        "조회수": "108",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "17",
+                        "제목": "Statista 이용교육(2023.9.20)",
+                        "작성자": "디지털정보팀(학술DB)",
+                        "작성일": "2023-09-21",
+                        "조회수": "88",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "18",
+                        "제목": "Endnote 이용교육(2023.9.19)",
+                        "작성자": "디지털정보팀(학술DB)",
+                        "작성일": "2023-09-19",
+                        "조회수": "89",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "19",
+                        "제목": "EBSCO Discovery Service(2023.9.19)",
+                        "작성자": "디지털정보팀(학술DB)",
+                        "작성일": "2023-09-15",
+                        "조회수": "74",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "20",
+                        "제목": "Turnitin 이용교육(2023.9.18)",
+                        "작성자": "디지털정보팀(학술DB)",
+                        "작성일": "2023-09-15",
+                        "조회수": "74",
+                        "첨부파일": ""
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "1234"
+            }
+        ]
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "연구지원",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/4",
+        "title": "연구가이드",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "연구지원",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/5",
+        "title": "핵심 전자자료 가이드",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "연구지원",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/7",
+        "title": "표절예방시스템 Turnitin",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "연구지원",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/2163621",
+        "title": "참고문헌관리 EndNote / RefWorks",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "연구지원",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/9",
+        "title": "학위논문제출",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "연구지원",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/501",
+        "title": "등재 학술지 리스트",
+        "description": []
+    },
+    {
+        "category": "연구학습지원",
+        "subcategory": "연구지원",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/5618421",
+        "title": "OA 출판 및 APC(논문출판비용) 지원",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "자료 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/10",
+        "title": "자료 대출 반납 안내",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/10",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "자료 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/13",
+        "title": "전자자료 이용 안내",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "자료 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/16",
+        "title": "희망자료 신청",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "자료 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/17",
+        "title": "타도서관 자료 대출",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "자료 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/18",
+        "title": "타도서관 자료 복사",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "자료 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/19",
+        "title": "서가에 없는 자료",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/20",
+        "title": "개관시간",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/21",
+        "title": "일반열람실 및 스터디룸 이용안내",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/26",
+        "title": "전시 및 행사 공간 이용안내",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/4179621",
+        "title": "라파엘 라이브 스튜디오 이용 안내",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/28",
+        "title": "캐럴 이용 신청",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/29",
+        "title": "복사 출력 스캔 안내",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/30",
+        "title": "무선랜 이용 안내",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/31",
+        "title": "모바일 이용증 안내",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "시설 이용",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/32",
+        "title": "타도서관 이용 신청",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "이용자별 이용안내",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/33",
+        "title": "학생",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "이용자별 이용안내",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/34",
+        "title": "교직원",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "이용자별 이용안내",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/35",
+        "title": "졸업생",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "이용자별 이용안내",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/36",
+        "title": "도서관회원",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "이용자별 이용안내",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/37",
+        "title": "협정기관",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "이용자별 이용안내",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/38",
+        "title": "장애인",
+        "description": []
+    },
+    {
+        "category": "도서관 이용",
+        "subcategory": "이용자별 이용안내",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/39",
+        "title": "기타",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/40",
+        "title": "연혁",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/40",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/41",
+        "title": "자료현황",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/42",
+        "title": "시설현황",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/43",
+        "title": "조직 및 업무별 연락처",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/44",
+        "title": "규정",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/45",
+        "title": "비전",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/83",
+        "title": "오시는 길 / 층별 안내",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "로욜라 도서관",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/241",
+        "title": "도서관 홍보물",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "분관 안내",
+        "url": "https://library.sogang.ac.kr/law",
+        "title": "법학전문도서관",
+        "description": []
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "알림/문의",
+        "url": "https://library.sogang.ac.kr/bbs/list/1",
+        "title": "공지사항",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "No.": "공지",
+                        "제목": "설연휴 휴관(1.27~30) • Library Closure for Lunar New Year's Holidays(Jan. 27~30)",
+                        "작성자": "지식정보기획팀",
+                        "작성일": "2025-01-20",
+                        "조회수": "193",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "2",
+                        "제목": "2025년 2월 졸업예정자 도서관 이용 안내",
+                        "작성자": "지식정보기획팀",
+                        "작성일": "2025-01-13",
+                        "조회수": "1612",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "3",
+                        "제목": "도서관 1관 3층 블라인드 교체 작업 안내(1/17, 금)",
+                        "작성자": "지식정보기획팀",
+                        "작성일": "2025-01-13",
+                        "조회수": "386",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "4",
+                        "제목": "2025년 Wiley Online Library OA APC 지원안내",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2025-01-02",
+                        "조회수": "827",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "5",
+                        "제목": "2025년 1월  웨비나(Webinar) - Cambridge University Press 오픈액세스 출판",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2025-01-02",
+                        "조회수": "836",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "6",
+                        "제목": "2024학년도 겨울방학 도서관 개관시간 • Winter Break Library Hours",
+                        "작성자": "지식정보기획팀",
+                        "작성일": "2024-12-24",
+                        "조회수": "1795",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "7",
+                        "제목": "Music and Dance Online, Scholytics 서비스 종료(~2024.12.31)",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-12-24",
+                        "조회수": "1133",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "8",
+                        "제목": "2025년 2월 졸업자 온라인 학위논문 제출 안내",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-12-20",
+                        "조회수": "1482",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "9",
+                        "제목": "[공사알림] K관 일반열람실 시스템에어컨 공사 알림",
+                        "작성자": "지식정보기획팀",
+                        "작성일": "2024-12-18",
+                        "조회수": "1250",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "10",
+                        "제목": "★ 행사 시간 변경  ★ 로욜라 도서관 기말고사 이벤트! ★ \" 로욜라에서 따뜻한 커피 한 잔 어때?\"",
+                        "작성자": "정보서비스팀",
+                        "작성일": "2024-12-12",
+                        "조회수": "1517",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "11",
+                        "제목": "2024학년도 겨울방학 정보검색특강",
+                        "작성자": "정보서비스팀",
+                        "작성일": "2024-12-12",
+                        "조회수": "1478",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "12",
+                        "제목": "2025년 2월 졸업 온라인학위논문 제출 교육 : 12/17(화) 15시, 12/19(목) 16시, 12/20(금) 17시",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-12-06",
+                        "조회수": "676",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "13",
+                        "제목": "기말시험기간 도서관 개관시간 연장 • Extended Library Hours for Final Exams",
+                        "작성자": "지식정보기획팀",
+                        "작성일": "2024-12-05",
+                        "조회수": "1384",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "14",
+                        "제목": "2024 겨울방학 장기대출 (24.12.09~21, 학부생 대상)",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-03",
+                        "조회수": "589",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "15",
+                        "제목": "2024년 12월 학술DB 온라인교육 일정",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-11-26",
+                        "조회수": "548",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "16",
+                        "제목": "[이벤트]구독DB와 함께하는 이벤트(12월)",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-11-25",
+                        "조회수": "410",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "17",
+                        "제목": "2024년 산타워너비 이벤트  ~!",
+                        "작성자": "정보서비스팀",
+                        "작성일": "2024-11-18",
+                        "조회수": "572",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "18",
+                        "제목": "타대학자료복사 경품 이벤트!",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-11-06",
+                        "조회수": "1626",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "19",
+                        "제목": "수시논술고사 기간 도서관 이용 안내(11.16~17) • Library Hours during the period of Admission Essay Test(Nov.16~17)",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-11-04",
+                        "조회수": "1374",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "20",
+                        "제목": "Reaxys 시범서비스(무료이용) 제공(~12/30) 및 온라인설명회(11/11)",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2024-10-31",
+                        "조회수": "585",
+                        "첨부파일": ""
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "12345678910"
+            }
+        ]
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "알림/문의",
+        "url": "https://library.sogang.ac.kr/faqlib/faq",
+        "title": "FAQ",
+        "description": [
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "1"
+            }
+        ]
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "알림/문의",
+        "url": "https://library.sogang.ac.kr/bbs/list/49",
+        "title": "문의 및 건의",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "No.": "1",
+                        "제목": "비공개청구기호 메시지를 원활하게 수신할 수 없어요",
+                        "작성자": "이**",
+                        "작성일": "2025-01-22",
+                        "조회수": "8",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "2",
+                        "제목": "비공개예약도서 안내메일이 오지 않아요",
+                        "작성자": "김**",
+                        "작성일": "2025-01-22",
+                        "조회수": "11",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "3",
+                        "제목": "비공개133호 일반열람실 난방1",
+                        "작성자": "한**",
+                        "작성일": "2025-01-20",
+                        "조회수": "13",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "4",
+                        "제목": "1관 화장실1",
+                        "작성자": "우**",
+                        "작성일": "2025-01-20",
+                        "조회수": "14",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "5",
+                        "제목": "비공개도서관 교내근로1",
+                        "작성자": "장**",
+                        "작성일": "2025-01-18",
+                        "조회수": "15",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "6",
+                        "제목": "비공개로앤비 접속 문의1",
+                        "작성자": "김**",
+                        "작성일": "2025-01-15",
+                        "조회수": "20",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "7",
+                        "제목": "비공개1관 난방 문의드립니다.1",
+                        "작성자": "이**",
+                        "작성일": "2025-01-13",
+                        "조회수": "10",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "8",
+                        "제목": "비공개해커스 챔프스터디 사이버 교육- 아이디 및 비번1",
+                        "작성자": "김**",
+                        "작성일": "2025-01-09",
+                        "조회수": "18",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "9",
+                        "제목": "비공개졸업생 동영상강좌 수강 가능 여부 문의1",
+                        "작성자": "김**",
+                        "작성일": "2025-01-08",
+                        "조회수": "21",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "10",
+                        "제목": "비공개해외 저널 이용 방법 문의1",
+                        "작성자": "박**",
+                        "작성일": "2025-01-05",
+                        "조회수": "17",
+                        "첨부파일": ""
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "알림/문의",
+        "url": "https://library.sogang.ac.kr/bbs/list/50",
+        "title": "분실물 찾기",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "No.": "1",
+                        "제목": "25-001 도서 「금융시장과 금융상품」",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2025-01-22",
+                        "조회수": "1",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "2",
+                        "제목": "24-187 도서 「영화기호학」",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2025-01-22",
+                        "조회수": "2",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "3",
+                        "제목": "24-183 카드 (국민)",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "6",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "4",
+                        "제목": "24-182 에어팟 프로",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "7",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "5",
+                        "제목": "24-181 카드",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "5",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "6",
+                        "제목": "24-179 카드 (국민)",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "5",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "7",
+                        "제목": "24-178 손목 시계",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "6",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "8",
+                        "제목": "24-177 에어팟",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "5",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "9",
+                        "제목": "24-176 학생증 (배＊성)",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "3",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "10",
+                        "제목": "24-175 카드 (체크)",
+                        "작성자": "지식정보기획팀 대출실",
+                        "작성일": "2024-12-27",
+                        "조회수": "5",
+                        "첨부파일": ""
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "12345"
+            }
+        ]
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "알림/문의",
+        "url": "https://library.sogang.ac.kr/bbs/list/6",
+        "title": "각종 양식 다운로드",
+        "description": [
+            {
+                "section": "Table Data",
+                "content": [
+                    {
+                        "No.": "1",
+                        "제목": "라파엘 라이브 스튜디오 사용 신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2023-04-04",
+                        "조회수": "988",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "2",
+                        "제목": "온라인학위논문 공개여부 변경 서류",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2021-03-02",
+                        "조회수": "749",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "3",
+                        "제목": "졸업생 대출회원 예치금 환불요청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2019-10-17",
+                        "조회수": "3383",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "4",
+                        "제목": "도서관회원 신청서 및 서약서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2019-10-14",
+                        "조회수": "2742",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "5",
+                        "제목": "학위논문 책자본 비공개 신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2019-10-14",
+                        "조회수": "1130",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "6",
+                        "제목": "로욜라 이주연 갤러리 사용 안내 및 신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2018-05-14",
+                        "조회수": "2967",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "7",
+                        "제목": "연속간행물 구독 신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2018-03-22",
+                        "조회수": "1630",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "8",
+                        "제목": "학술DB 및 전자저널 구독신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2018-03-22",
+                        "조회수": "1627",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "9",
+                        "제목": "연속간행물 보관서고 소장자료 이용신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2016-06-29",
+                        "조회수": "1922",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "10",
+                        "제목": "고서 및 귀중자료 열람 및 복제신청",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2016-06-28",
+                        "조회수": "2744",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "11",
+                        "제목": "3관 5층 Group Study Room 이용 신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2013-01-11",
+                        "조회수": "7297",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "12",
+                        "제목": "신숙원 U-Dream Hall 사용신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2012-02-29",
+                        "조회수": "7147",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "13",
+                        "제목": "졸업생대출회원 신청서 및 서약서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2012-02-29",
+                        "조회수": "42417",
+                        "첨부파일": ""
+                    },
+                    {
+                        "No.": "14",
+                        "제목": "도서관 근무 신청서",
+                        "작성자": "로욜라도서관",
+                        "작성일": "2012-02-29",
+                        "조회수": "15832",
+                        "첨부파일": ""
+                    }
+                ]
+            },
+            {
+                "section": "Search Area",
+                "content": {
+                    "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                }
+            },
+            {
+                "section": "Paging",
+                "content": "1"
+            }
+        ]
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "도서관 기부",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/48",
+        "title": "로욜라원프로젝트",
+        "description": [
+            {
+                "section": "Tabs",
+                "content": [
+                    {
+                        "tab_name": "기부현황",
+                        "content": {
+                            "category": "도서관 소개",
+                            "subcategory": "도서관 기부",
+                            "url": "https://library.sogang.ac.kr/donorsStatus",
+                            "title": "로욜라원프로젝트",
+                            "description": [
+                                {
+                                    "section": "Tabs",
+                                    "content": [
+                                        {
+                                            "tab_name": "기부자명단",
+                                            "content": {
+                                                "category": "도서관 소개",
+                                                "subcategory": "도서관 기부",
+                                                "url": "https://library.sogang.ac.kr/donors/list",
+                                                "title": "로욜라원프로젝트",
+                                                "description": [
+                                                    {
+                                                        "section": "Table Data",
+                                                        "content": [
+                                                            {
+                                                                "No.": "1",
+                                                                "기부자": "강성권",
+                                                                "기부자 정보": "대학원",
+                                                                "기부금액": "50,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "2",
+                                                                "기부자": "박재현",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "50,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "3",
+                                                                "기부자": "박재현",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "50,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "4",
+                                                                "기부자": "이호복",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "10,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "5",
+                                                                "기부자": "박재현",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "20,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "6",
+                                                                "기부자": "박재현",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "30,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "7",
+                                                                "기부자": "강여진",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "50,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "8",
+                                                                "기부자": "이승목",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "20,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "9",
+                                                                "기부자": "조미영",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "10,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            },
+                                                            {
+                                                                "No.": "10",
+                                                                "기부자": "명혜란",
+                                                                "기부자 정보": "학부",
+                                                                "기부금액": "10,000 원",
+                                                                "기부일": "2024-12-31",
+                                                                "기부 용도": "로욜라 원 프로젝트"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "section": "Search Area",
+                                                        "content": {
+                                                            "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                                                        }
+                                                    },
+                                                    {
+                                                        "section": "Paging",
+                                                        "content": "12345"
+                                                    },
+                                                    {
+                                                        "section": "Tabs",
+                                                        "content": [
+                                                            {
+                                                                "tab_name": "관련소식",
+                                                                "content": {
+                                                                    "category": "도서관 소개",
+                                                                    "subcategory": "도서관 기부",
+                                                                    "url": "https://library.sogang.ac.kr/bbs/list/51",
+                                                                    "title": "로욜라원프로젝트",
+                                                                    "description": [
+                                                                        {
+                                                                            "section": "Search Area",
+                                                                            "content": {
+                                                                                "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "section": "Paging",
+                                                                            "content": "1"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "도서관 소개",
+        "subcategory": "도서관 기부",
+        "url": "https://library.sogang.ac.kr/htmlmanager/service/49",
+        "title": "자료 기증",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/myloan/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/myloan/list",
+        "description": "Already visited",
+        "content": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/myreserve/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/purchaserequest/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/ill/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/dds/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/missrepo/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/otherlib/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/education/applyList",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/req/mylist/1",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/mynotice/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/mylist/list",
+        "title": "로그인",
+        "description": [
+            {
+                "section": "Tabs",
+                "content": [
+                    {
+                        "tab_name": "공유서재",
+                        "content": {
+                            "category": "My Library",
+                            "subcategory": "개인 서비스",
+                            "url": "https://library.sogang.ac.kr/mylist/search/list",
+                            "title": "내서재",
+                            "description": [
+                                {
+                                    "section": "Table Data",
+                                    "content": [
+                                        {
+                                            "": "",
+                                            "No.": "1",
+                                            "서재": "진로 적응 (탄력성, 불확실성, 미결정, 무경계 진로태도 등)",
+                                            "설명": "",
+                                            "소유자": "최하림",
+                                            "수록아이템수": "8",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-23"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "2",
+                                            "서재": "Qualitative inquiry",
+                                            "설명": "",
+                                            "소유자": "박은영",
+                                            "수록아이템수": "1",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-23"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "3",
+                                            "서재": "전자",
+                                            "설명": "",
+                                            "소유자": "하영욱",
+                                            "수록아이템수": "1",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-23"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "4",
+                                            "서재": "24-동계",
+                                            "설명": "",
+                                            "소유자": "이시연",
+                                            "수록아이템수": "2",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-23"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "5",
+                                            "서재": "Mindfulness",
+                                            "설명": "",
+                                            "소유자": "박소영",
+                                            "수록아이템수": "26",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-22"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "6",
+                                            "서재": "로욜라",
+                                            "설명": "",
+                                            "소유자": "오태진",
+                                            "수록아이템수": "1",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-22"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "7",
+                                            "서재": "DAO & Community",
+                                            "설명": "",
+                                            "소유자": "문선아",
+                                            "수록아이템수": "1",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-22"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "8",
+                                            "서재": "텍스트마이닝, 유튜브",
+                                            "설명": "",
+                                            "소유자": "차상민",
+                                            "수록아이템수": "2",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-21"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "9",
+                                            "서재": "인공지능시대문명의 존재론적 전회,",
+                                            "설명": "",
+                                            "소유자": "이정원",
+                                            "수록아이템수": "1",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-20"
+                                        },
+                                        {
+                                            "": "",
+                                            "No.": "10",
+                                            "서재": "러시아문학(a.k.a 노문학)",
+                                            "설명": "러시아 문학 너무 좋아",
+                                            "소유자": "이주원",
+                                            "수록아이템수": "74",
+                                            "관심 이용자수": "0",
+                                            "수정일": "2025-01-20"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section": "Search Area",
+                                    "content": {
+                                        "선택조건으로 조회": "https://library.sogang.ac.kr/"
+                                    }
+                                },
+                                {
+                                    "section": "Paging",
+                                    "content": "12345"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/myreview/list",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "category": "No Category",
+        "subcategory": "No Subcategory",
+        "url": "https://library.sogang.ac.kr/myprofile/relogin",
+        "title": "로그인",
+        "description": []
+    },
+    {
+        "url": "https://library.sogang.ac.kr/",
+        "description": "Already visited",
+        "content": []
+    }
+]

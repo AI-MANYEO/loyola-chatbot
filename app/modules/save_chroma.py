@@ -3,32 +3,54 @@ import os
 import chromadb
 from database.chroma_manager import *
 
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# data_folder = os.path.join(BASE_DIR, "/database/raw")
-
-
-
 def load_data_to_chromadb():
     data_folder = "database/raw/"
-
     for file_name in os.listdir(data_folder):
-        if file_name.endswith(".json"):  
+        if file_name.endswith(".json"):
             file_path = os.path.join(data_folder, file_name)
 
             with open(file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-
-            # JSON 구조에 따라 title과 content 설정
-            title = data.get("메뉴", "제목 없음")
-            texts = " ".join(data["내용"].get("texts", []))  # 모든 텍스트를 하나로 합침
-
-            vector = embedding_model.encode(texts).tolist()
-
+        for entry in data:
+            title = entry.get("title", "제목 없음")
+            url = entry.get("url", "")
+            category = entry.get("category", "")
+            subcategory = entry.get("subcategory", "")
+            description = entry.get("description", [])
+            
+            # description 내 content 값들을 텍스트로 변환
+            texts = []
+            for desc in description:
+                if isinstance(desc, dict) and "content" in desc:
+                    content = desc["content"]
+                    if isinstance(content, dict):
+                        texts.extend([str(v) for v in content.values()])
+                    elif isinstance(content, list):
+                        texts.extend([str(item) for item in content])
+                    else:
+                        texts.append(str(content))
+            
+            combined_text = " ".join(texts)
+            if not combined_text.strip():
+                continue  # 빈 설명은 저장하지 않음
+            
+            vector = embedding_model.encode(combined_text).tolist()
+            
+            doc_id = f"{title}-{url}"  # 고유 ID 생성
             
             collection.add(
-                ids=[file_name],  # 파일명을 ID로 
+                ids=[doc_id],
                 embeddings=[vector],
-                metadatas=[{"title": title, "content": texts}]
+                metadatas=[{
+                    "title": title,
+                    "url": url,
+                    "category": category,
+                    "subcategory": subcategory,
+                    "content": combined_text
+                }]
             )
+        
+    print("모든 데이터를 크로마DB에 저장 완료!")
 
-    print("모든 JSON 파일을 크로마DB에 저장 완료!")
+if __name__ == "__main__":
+    load_data_to_chromadb()
