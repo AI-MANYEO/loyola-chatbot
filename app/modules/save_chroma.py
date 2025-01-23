@@ -3,32 +3,41 @@ import os
 import chromadb
 from database.chroma_manager import *
 
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# data_folder = os.path.join(BASE_DIR, "/database/raw")
-
-
-
 def load_data_to_chromadb():
-    data_folder = "database/raw/"
+    data_file = "database/raw/sogang_library_structured.json"
 
-    for file_name in os.listdir(data_folder):
-        if file_name.endswith(".json"):  
-            file_path = os.path.join(data_folder, file_name)
+    with open(data_file, "r", encoding="utf-8") as f:
+        data_list = json.load(f)  # JSON이 리스트 구조이므로 직접 리스트 로드
 
-            with open(file_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
+    for page_data in data_list:
+        url = page_data.get("url", "No URL")
+        title = page_data.get("title", "No Title")
+        category = page_data.get("category", "No Category")
+        subcategory = page_data.get("subcategory", "No Subcategory")
+        
+        # description에서 section과 content를 합쳐 하나의 텍스트로 변환
+        description_texts = []
+        for section in page_data.get("description", []):
+            section_title = section.get("section", "")
+            section_content = " ".join([str(item) for item in section.get("content", [])])
+            description_texts.append(f"{section_title}: {section_content}")
 
-            # JSON 구조에 따라 title과 content 설정
-            title = data.get("메뉴", "제목 없음")
-            texts = " ".join(data["내용"].get("texts", []))  # 모든 텍스트를 하나로 합침
+        full_text = f"{title} {category} {subcategory} " + " ".join(description_texts)
 
-            vector = embedding_model.encode(texts).tolist()
+        # 벡터 임베딩 생성
+        vector = embedding_model.encode(full_text).tolist()
 
-            
-            collection.add(
-                ids=[file_name],  # 파일명을 ID로 
-                embeddings=[vector],
-                metadatas=[{"title": title, "content": texts}]
-            )
+        # ChromaDB에 추가
+        collection.add(
+            ids=[url],  # URL을 ID로 사용
+            embeddings=[vector],
+            metadatas=[{
+                "title": title,
+                "category": category,
+                "subcategory": subcategory,
+                "content": full_text
+            }]
+        )
 
-    print("모든 JSON 파일을 크로마DB에 저장 완료!")
+    print("모든 JSON 데이터를 크로마DB에 저장 완료!")
+
