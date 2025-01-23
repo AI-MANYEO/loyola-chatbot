@@ -15,15 +15,6 @@ collection = client.get_or_create_collection(name="library_collection")
 collections = client.list_collections()
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-
-
-# client.delete_collection("library_collection")  # 컬렉션 이름 지정
-# print("컬렉션이 삭제되었습니다.")
-
-
-
-# print("현재 존재하는 컬렉션 목록:")
-# for collection_name in collections:
-#     print(collection_name)
-
-
+print("현재 존재하는 컬렉션 목록:")
+for collection_name in collections:
+    print(collection_name)
