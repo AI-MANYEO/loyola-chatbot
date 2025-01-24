@@ -2,6 +2,7 @@ from app.utils.logger import setup_logger
 # from app.modules.search import get_answer
 from app.modules.save_chroma import load_data_to_chromadb
 from app.modules.generate_chroma import generate_response
+from app.modules.ui import build_ui
 import pandas as pd
 import gradio as gr
 
@@ -23,8 +24,9 @@ import gradio as gr
 #         print(f"[챗봇 답변] > {answer}")
 
 def chatbot_interface(query):
-    response=generate_response(query)
-    print("챗봇 응답: ", response)
+    response = generate_response(query)
+    # print("챗봇 응답: ", response)  # 터미널에도 출력 (디버깅용)
+    return response  # Gradio 출력에 전달
 
 interface = gr.Interface(
     fn=chatbot_interface,               # Gradio가 호출할 함수
@@ -41,7 +43,9 @@ interface = gr.Interface(
 
 if __name__ == "__main__":
     # Gradio 인터페이스 실행
-    interface.launch()
+    #interface.launch()
+    ui = build_ui(generate_response)
+    ui.launch()
 
 # if __name__ == "__main__":
 #     load_data_to_chromadb()
