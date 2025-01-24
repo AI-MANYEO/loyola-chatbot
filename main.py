@@ -1,10 +1,14 @@
 from app.utils.logger import setup_logger
 # from app.modules.search import get_answer
+<<<<<<< HEAD
 # from app.modules.save_chroma import load_data_to_chromadb
 from app.modules.generate_chroma import generate_response
+=======
+>>>>>>> origin/hyunjin
 import pandas as pd
 import gradio as gr
-
+from app.modules.save import load_data_to_chromadb
+from app.modules.generate import generate_response
 # def main():
 #     print("도서관 챗봇에 오신 것을 환영합니다!")
 #     print("질문을 입력해 주세요. 종료하려면 'exit'를 입력하세요.")
