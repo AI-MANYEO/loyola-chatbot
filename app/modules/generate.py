@@ -11,6 +11,9 @@ openai_key=os.environ.get("OPENAI_SECRET_KEY")
 client=OpenAI(api_key=openai_key)
 GPT_MODEL="gpt-4"
 
+# 담당 부서 정보
+contact_info = "정보서비스팀의 참고서비스데스크(02-705-8195)"
+
 def generate_response(query):
     results = search_library(query, top_k=1)
 
