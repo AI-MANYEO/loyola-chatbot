@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 from app.utils.logger import setup_logger
-from app.modules.search_chroma import search_library
+from app.modules.search import search_library
 
 logger = setup_logger(name="generate")
 load_dotenv()
