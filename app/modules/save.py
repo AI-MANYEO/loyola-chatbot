@@ -13,6 +13,7 @@ def load_data_to_chromadb():
                 data = json.load(f)
         for entry in data:
             title = entry.get("title", "제목 없음")
+            tab = entry.get("tab", "")
             url = entry.get("url", "")
             category = entry.get("category", "")
             subcategory = entry.get("subcategory", "")

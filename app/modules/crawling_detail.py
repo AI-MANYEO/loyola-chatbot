@@ -740,6 +740,8 @@ class DetailScraper(BaseScraper):
                 "이메일": "@"
             }
         )
+        
+        # ✅ 연
 
         # ✅ 테이블 데이터 추출 (guideTable type2)
         table_data = self.extract_table(soup, "div", "guideTable type2", "table")
