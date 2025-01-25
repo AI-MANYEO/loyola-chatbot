@@ -1,12 +1,11 @@
 from app.utils.logger import setup_logger
 # from app.modules.search import get_answer
-# from app.modules.save import load_data_to_chromadb
+from app.modules.save import load_data_to_chromadb
 from app.modules.generate import generate_response
 from app.modules.ui import build_ui
 import pandas as pd
 import gradio as gr
-from app.modules.save import load_data_to_chromadb
-from app.modules.generate import generate_response
+
 # def main():
 #     print("도서관 챗봇에 오신 것을 환영합니다!")
 #     print("질문을 입력해 주세요. 종료하려면 'exit'를 입력하세요.")
@@ -42,11 +41,12 @@ interface = gr.Interface(
 #     response=generate_response(query)
 #     print("챗봇 응답: ", response)
 
+#if __name__ == "__main__":
+#    load_data_to_chromadb()
+
+
 if __name__ == "__main__":
     # Gradio 인터페이스 실행
     #interface.launch()
     ui = build_ui(generate_response)
     ui.launch()
-
-# if __name__ == "__main__":
-#    load_data_to_chromadb()
