@@ -2,47 +2,50 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 from app.utils.logger import setup_logger
+from app.modules.search_chroma import search_library
 
-logger=setup_logger(name="generate")
-# .env 파일 로드
+logger = setup_logger(name="generate")
 load_dotenv()
 
-# 환경 변수에서 API 키 가져오기
-openai_key = os.getenv("OPENAI_SECRET_KEY")
-
-# API 키가 정상적으로 로드되었는지 확인
-if not openai_key:
-    raise ValueError("❌ OpenAI API Key가 설정되지 않았습니다! .env 파일을 확인하세요.")
-
-# OpenAI 클라이언트 초기화
+openai_key = os.environ.get("OPENAI_SECRET_KEY")
 client = OpenAI(api_key=openai_key)
 GPT_MODEL = "gpt-3.5-turbo"
 
-'''
-search.py에서 유사도 검색으로 찾은 데이터로 gpt가 답변 생성하는 것
-'''
-def generate_answer(query, similar_question, similar_answer):
-    """
-    Generates an AI-powered answer based on the query and the most relevant book data.
-    """
-    messages = [
-        {"role": "system", "content": "당신은 서강대학교 도서관 챗봇입니다. 친절하고 정확한 정보를 제공하세요."},
-        {"role": "user", "content": f"사용자 질문: {query}"},
-        {"role": "assistant", "content": f"관련 도서 서명: {similar_question}\n소장 정보: {similar_answer}"},
-        {"role": "user", "content": "위 정보를 바탕으로 사용자에게 상세하고 친절한 답변을 제공해주세요."}
-    ]
+# 담당 부서 정보
+contact_info = "정보서비스팀의 참고서비스데스크(02-705-8195)"
 
-    # **[디버깅 출력] GPT에게 전달되는 메시지 확인**
-    print(f"\n[DEBUG] GPT 입력 데이터:")
-    for msg in messages:
-        print(f"[{msg['role'].upper()}] {msg['content']}\n")
+def generate_response(query):
+    results = search_library(query)
+
+    if not results or len(results) == 0:
+        return f"관련된 정보를 찾지 못했습니다. 추가 도움이 필요하면 {contact_info}로 연락해주세요."
+
+    # 상위 3개의 검색 결과를 활용
+    top_results = results[:3]
+    combined_results = "\n".join([f"[{i+1}] {res.get('content', '정보 없음')}" for i, res in enumerate(top_results)])
+
+    messages = [
+        {"role": "system", "content": "당신은 도서관 이용을 도와주는 챗봇입니다. 관련 정보를 토대로, 주어진 사용자의 질문에 알맞은 응답을 생성해주세요. 답변은 친절하고 명확해야 합니다. 추가 문의사항을 처리할 수 있는 담당 부서와 연락처 정보를 함께 제공해야 합니다."},
+        {"role": "user", "content": f"질문: {query}\n관련 검색 결과:\n{combined_results}"},
+    ]
 
     try:
         response = client.chat.completions.create(
-            model=GPT_MODEL,  
+            model=GPT_MODEL,
             messages=messages,
-            max_tokens=1000
+            max_tokens=1000,
         )
-        return response.choices[0].message.content
+        response_message = response.choices[0].message.content
+        
+        # 최종 응답에 담당 부서 정보 추가
+        final_response = f"{response_message}\n\n추가 문의사항이 있으시면 {contact_info}로 연락해주세요."
+        return final_response
+
     except Exception as e:
+        logger.error(f"API 호출 오류: {e}")
         return f"답변 생성 중 오류가 발생했습니다: {e}"
+
+# if __name__ == "__main__":
+#     query = input("질문을 입력하세요: ")
+#     response = generate_response(query)
+#     print("AI 응답:", response)

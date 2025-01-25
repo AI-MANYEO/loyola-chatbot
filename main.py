@@ -1,7 +1,7 @@
 from app.utils.logger import setup_logger
 # from app.modules.search import get_answer
-from app.modules.save_chroma import load_data_to_chromadb
-from app.modules.generate_chroma import generate_response
+from app.modules.save import load_data_to_chromadb
+from app.modules.generate import generate_response
 from app.modules.ui import build_ui
 import pandas as pd
 import gradio as gr
