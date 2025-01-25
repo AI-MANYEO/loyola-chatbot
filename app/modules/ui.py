@@ -61,11 +61,13 @@ def build_ui(chatbot_interface):
             padding: 10px;
             color: white;
         }
-        .user-message, .user.svelte-u94xf4.message {
+       .user-message, .user.svelte-u94xf4.message {
             background-color: rgba(134, 31, 28, 0.1);  /* 배경색 투명도 10% */
             border: 1px solid rgba(134, 31, 28, 0.2);  /* 테두리 색상, 두께, 투명도 설정 */
             border-radius: 10px;  /* 둥근 모서리 적용 */
             padding: 10px;
+            color: white;  /* 글자 색상 */
+            font-weight: bold;
             color: white;  /* 글자 색상 */
             font-weight: bold;
         }
