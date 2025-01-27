@@ -2,12 +2,20 @@ import gradio as gr
 
 def build_ui(chatbot_interface):
     with gr.Blocks(css="""
-    /* 서강체 폰트 로드 */
+    /* 서강체 폰트 로드 (Mac 및 Windows 대응) */
         @font-face {
-            font-family: 'Sogang';
-            src: url('/static/fonts/SOGANG_UNIVERSITY_for_windows.ttf') format('truetype'); 
+            font-family: 'SogangMac';
+            src: url('/app/modules/fonts/SOGANG_UNIVERSITY_for_mac.otf') format('opentype');
         }
-
+        @font-face {
+            font-family: 'SogangWindows';
+            src: url('/app/modules/fonts/SOGANG_UNIVERSITY_for_windows.ttf') format('truetype');
+        }
+        body {
+            font-family: 'SogangWindows', 'SogangMac', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
         .send-button, .clear-button {
             padding: 12px 20px;
             font-size: 14px;
@@ -44,40 +52,61 @@ def build_ui(chatbot_interface):
             font-family: 'Roboto', sans-serif;
             font-size: 14px;
             color: #333;
+            position: relative;
+            z-index: 1;
         }
         .bot-message {
-            background-color: #9C2A2A;  /* 서강대색*/
+            background-color: #9C2A2A;  /* Lighter version of #861F1C */
             border-radius: 10px;
             padding: 10px;
             color: white;
         }
-        .user-message {
-            background-color: #d3d3d3;
-            border-radius: 10px;
+        .user-message, .user.svelte-u94xf4.message {
+            background-color: rgba(134, 31, 28, 0.1);  /* 배경색 투명도 10% */
+            border: 1px solid rgba(134, 31, 28, 0.2);  /* 테두리 색상, 두께, 투명도 설정 */
+            border-radius: 10px;  /* 둥근 모서리 적용 */
             padding: 10px;
-            color: black;
+            color: white;  /* 글자 색상 */
+            font-weight: bold;
         }
         .header-title {
             display: flex;
             align-items: center;
-            font-family: 'Sogang', sans-serif; /* 서강체 폰트 적용 */
+            font-family: 'SogangWindows', 'SogangMac', sans-serif;  /* Mac 및 Windows 폰트 적용 */
             font-size: 36px;  /* 글씨 크기 증가 */
             font-weight: bold; /* 굵게 */
         }
         .header-title img {
-            width: 50px;  /* Adjust icon size */
+            width: 180px;  /* Adjust icon size */
             height: auto;
             margin-right: 10px;
         }
+        /* 채팅방 배경 이미지 및 흐림 효과 */
+        .chat-container {
+            position: relative;
+            background-image: url('https://i.namu.wiki/i/cQrk_1k9GWhb6dNzDu6zmT5qZajKV_t6dWbnas2NugXkNq8DZr6z3iJkZuUThjao7eUURuvCQmfvme4uUGMpRA.webp');
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);  /* 흐림 효과 적용 */
+        }
+
+        /* 메시지 영역을 배경 이미지 위에 표시되도록 z-index 설정 */
+        .chat-container .message-container {
+            position: relative;
+            z-index: 2;  /* 메시지가 배경 이미지 위에 오도록 설정 */
+        }
     """) as interface:
-        chat_history = gr.State([])
+        
+        chat_history = gr.State([])  # chat_history 정의
 
         # Title with logo on the left (updated to use the new image)
         with gr.Row():
-            gr.Markdown("""
+            gr.HTML("""
                 <div class="header-title">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjaeoWoYgNtFCUn2u42Ih2J-UB2K8hCjlmCg&s" alt="Library Logo" />
-                    서강대학교 로욜라 도서관 챗봇
+                    <img src="https://sogang.bookcosmos.com/logoImg/logo.gif" 
+                        alt="Library Logo" 
+                        style="cursor: pointer;" 
+                        onclick="location.reload();" />
                 </div>
             """)
 

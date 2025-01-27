@@ -1,5 +1,5 @@
 from app.utils.logger import setup_logger
-from app.modules.generate_chroma import generate_response
+from app.modules.generate import generate_response
 from app.modules.ui import build_ui
 import gradio as gr
 
