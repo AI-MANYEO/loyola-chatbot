@@ -15,14 +15,21 @@
 chatbot
 ├── app                       # 애플리케이션 주요 모듈
 │   ├── modules               # 주요 기능별 모듈(NLP, 크롤링, 검색 등)
+│       ├── crawling.py
+│       ├── generate.py
+│       ├── save.py
+│       ├── search.py
+│       └── ui.py
 │   ├── api                   # api 엔드포인트 관련
 │   ├── interfaces            # 사용자 인터페이스 모듈
 │   ├── utils                 # 공통 유틸리티 함수
 │       ├── ⚙️ config.py        
-│       └── 🛠️ logger.py         
+│       └── 🛠️ logger.py
 ├── database                  # 크롤링 데이터 저장
-├── notebooks                 # Jupyter Notebook 파일 (개발/분석용)
-├── test                      # 테스트 파일
+│   ├── raw
+│       ├── detail_data.json
+│       └── menu_data.json
+│   └── chroma_manager.py
 └── main.py                   # 프로젝트 실행 파일           
 ```
 
@@ -37,7 +44,8 @@ cd loyola-chatbot
 #### 2. 가상환경 활성화 및 라이브러리 설치
 ```bash
 python -m venv venv
-source ./venv/Scripts/activate
+source ./venv/Scripts/activate #Windows용
+source ./venv/bin/activate #Mac용
 python --version
 pip install -r requirements.txt
 ```
