@@ -15,7 +15,8 @@
 chatbot
 ├── app                       # 애플리케이션 주요 모듈
 │   ├── modules               # 주요 기능별 모듈(NLP, 크롤링, 검색 등)
-│       ├── crawling.py
+│       ├── crawling_detail.py
+│       ├── crawling_menu.py
 │       ├── generate.py
 │       ├── save.py
 │       ├── search.py
