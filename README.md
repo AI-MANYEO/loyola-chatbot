@@ -19,10 +19,9 @@ chatbot
 │       ├── crawling_menu.py
 │       ├── generate.py
 │       ├── save.py
-│       ├── search.py
-│       └── ui.py
-│   ├── api                   # api 엔드포인트 관련
+│       └── search.py
 │   ├── interfaces            # 사용자 인터페이스 모듈
+│       ├── ui.py
 │   ├── utils                 # 공통 유틸리티 함수
 │       ├── ⚙️ config.py        
 │       └── 🛠️ logger.py
