@@ -16,7 +16,6 @@ chatbot
 ├── app                       # 애플리케이션 주요 모듈
 │   ├── modules               # 주요 기능별 모듈(NLP, 크롤링, 검색 등)
 │       ├── crawling_detail.py
-│       ├── crawling_menu.py
 │       ├── generate.py
 │       ├── save.py
 │       └── search.py
@@ -27,8 +26,7 @@ chatbot
 │       └── 🛠️ logger.py
 ├── database                  # 크롤링 데이터 저장
 │   ├── raw
-│       ├── detail_data.json
-│       └── menu_data.json
+│       └── detail_data.json
 │   └── chroma_manager.py
 └── main.py                   # 프로젝트 실행 파일           
 ```
