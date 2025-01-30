@@ -9,6 +9,7 @@ from urllib.parse import urljoin
 BASE_URL = "https://library.sogang.ac.kr"
 SAVE_DIRECTORY = "database/raw"
 FILE_PATHS = {
+    "menu": os.path.join(SAVE_DIRECTORY, "menu_data.json"),  # 🔹 메뉴 데이터 저장 파일
     "details": os.path.join(SAVE_DIRECTORY, "detail_data.json")  # 🔹 상세 정보 저장 파일
 }
 
