@@ -740,8 +740,11 @@ class DetailScraper(BaseScraper):
                 "이메일": "@"
             }
         )
+<<<<<<< HEAD
         
         # ✅ 연
+=======
+>>>>>>> origin/sorin
 
         # ✅ 테이블 데이터 추출 (guideTable type2)
         table_data = self.extract_table(soup, "div", "guideTable type2", "table")
