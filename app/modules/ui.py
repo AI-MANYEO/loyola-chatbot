@@ -2,18 +2,6 @@ import gradio as gr
 
 def build_ui(chatbot_interface):
     with gr.Blocks(css="""
-    /* 서강체 폰트 로드 (Mac 및 Windows 대응) */
-        @font-face {
-            font-family: 'SogangMac';
-            src: url('/app/modules/fonts/SOGANG_UNIVERSITY_for_mac.otf') format('opentype');
-        }
-        @font-face {
-            font-family: 'SogangWindows';
-            src: url('/app/modules/fonts/SOGANG_UNIVERSITY_for_windows.ttf') format('truetype');
-        }
-        body {
-            font-family: 'SogangWindows', 'SogangMac', sans-serif;
-        }
         .send-button, .clear-button {
             padding: 12px 20px;
             font-size: 14px;
@@ -65,31 +53,7 @@ def build_ui(chatbot_interface):
             color: white;  /* 글자 색상 */
             font-weight: bold;
         }
-        .header-title {
-            display: flex;
-            align-items: center;
-            font-family: 'SogangWindows', 'SogangMac', sans-serif;  /* Mac 및 Windows 폰트 적용 */
-            font-size: 36px;  /* 글씨 크기 증가 */
-            font-weight: bold; /* 굵게 */
-        }
-        .header-title img {
-            width: 180px;  /* Adjust icon size */
-            height: auto;
-            margin-right: 10px;
-        }
     """) as interface:
-        
-        # 배경 이미지 적용
-        gr.HTML("""
-            <style>
-                body {
-                    background-image: url('https://www.sogang.ac.kr/dataview/board/81/17319917792.jpg');
-                    background-size: cover;
-                    background-position: center;
-                    background-attachment: fixed;
-                }
-            </style>
-        """)
 
         chat_history = gr.State([])
 
@@ -99,7 +63,7 @@ def build_ui(chatbot_interface):
                 <div class="header-title">
                     <img src="https://sogang.bookcosmos.com/logoImg/logo.gif" 
                         alt="Library Logo" 
-                        style="cursor: pointer;" 
+                        style="cursor: pointer; width: 180px; height: auto;" 
                         onclick="location.reload();" />
                 </div>
             """)
