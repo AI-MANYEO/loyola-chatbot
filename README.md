@@ -1,6 +1,5 @@
 # loyola_chatbot
-2025 winter 탐구 공동체 프로젝트
-
+2025 winter 서강대학교 탐구공동체 프로젝트
 ---
 
 ## 📌 프로젝트 소개
@@ -94,7 +93,7 @@ python app/modules/crawling_menu.py # 메뉴 크롤링
 python app/modules/crawling_detail.py # 상세 정보 크롤링
 ```
 
-### 5. 크로마DB에 데이터 저장
+#### 5. 크로마DB에 데이터 저장
 크롤링한 데이터를 크로마DB에 업로드합니다.
 ```bash
 python app/modules/save.py
