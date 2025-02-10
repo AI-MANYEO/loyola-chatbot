@@ -82,6 +82,13 @@ def build_ui(chatbot_interface):
             send_btn = gr.Button("Send", elem_classes="send-button", scale=1)
             clear_btn = gr.Button("Clear", elem_classes="clear-button", scale=1)
 
+        # Textbox에서 Enter 키로 메시지를 전송
+        user_input.submit(
+            chatbot_interface,
+            inputs=[user_input, chat_history],
+            outputs=[user_input, chatbot]
+        )
+        
         # Button events
         send_btn.click(
             chatbot_interface,
