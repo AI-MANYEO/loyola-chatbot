@@ -73,7 +73,8 @@ cd loyola-chatbot
 #### 2. 가상환경 활성화 및 라이브러리 설치
 ```bash
 python -m venv venv
-source ./venv/Scripts/activate
+source ./venv/Scripts/activate # Windows
+source ./venv/bin/activate # Mac/Linux
 python --version
 pip install -r requirements.txt
 ```

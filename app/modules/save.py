@@ -15,6 +15,21 @@ def reset_chromadb():
 
     print("✅ 크로마DB 초기화 완료!")
 
+def format_description(description):
+    """description이 리스트인 경우 문자열로 반환"""
+    if isinstance(description, list):
+        formatted = []
+        for item in description:
+            if isinstance(item, dict):
+                # 딕셔너리 데이터를 JSON 문자열로 변환
+                formatted.append(json.dumps(item, ensure_ascii=False))
+            else:
+                formatted.append(str(item))
+        return " ".join(formatted)
+    return str(description)
+
+
+
 def load_data_to_chromadb():
     data_folder = "database/raw/"
 
@@ -42,23 +57,15 @@ def load_data_to_chromadb():
                 url = entry.get("url", "")
                 category = entry.get("category", "")
                 subcategory = entry.get("subcategory", "")
-                description = entry.get("description", [])
-
-                # 🔹 description이 리스트라면 문자열로 변환
-                combined_text = " ".join(map(str, description)) if isinstance(description, list) else str(description)
+                description = format_description(entry.get("description", []))
 
                 # 🔹 벡터 임베딩 생성 (예외 처리 포함)
                 try:
-                    vector = np.array(embedding_model.encode(combined_text)).tolist()  # ✅ `numpy.array` 변환
+                    vector = np.array(embedding_model.encode(description)).tolist()  # ✅ `numpy.array` 변환
                     print(f"✅ 벡터 생성 완료: {title} (벡터 길이: {len(vector)})")
                 except Exception as e:
                     print(f"⚠️ 벡터 임베딩 오류: {title}, 오류: {e}")
                     continue
-
-                # 🔹 벡터가 None이거나 빈 리스트일 경우 기본 벡터 사용
-                if vector is None or len(vector) == 0:
-                    print(f"⚠️ 벡터 생성 실패: {title}, 기본 벡터 사용")
-                    vector = [0.0] * 384  # 기본 벡터 (384차원, 모델에 따라 다름)
 
                 doc_id = f"{title}-{url}"
 
@@ -66,7 +73,7 @@ def load_data_to_chromadb():
                 collection.add(
                     ids=[doc_id],
                     embeddings=[vector],  # ✅ 벡터 포함
-                    documents=[combined_text],
+                    documents=[description],
                     metadatas=[{
                         "title": title,
                         "tab": tab,
@@ -80,6 +87,7 @@ def load_data_to_chromadb():
 
     print("✅ 모든 데이터를 크로마DB에 저장 완료!")
 
+    """
     # ✅ 수정: embeddings 포함 여부 확인
     stored_data = collection.get(include=["embeddings", "metadatas", "documents"])
     
@@ -87,6 +95,7 @@ def load_data_to_chromadb():
         print("❌ 크로마DB에 벡터 데이터가 저장되지 않았습니다!")
     else:
         print(f"✅ 크로마DB에 저장된 벡터 개수: {len(stored_data['embeddings'])}")
+    """
 
 if __name__ == "__main__":
     reset_chromadb()  # 기존 데이터 초기화

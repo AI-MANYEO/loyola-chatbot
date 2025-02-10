@@ -308,6 +308,7 @@ class BaseScraper:
                     extracted_faq.append(f"Q: {question} A: {answer}")
 
         return extracted_faq
+
     def extract_faq_tabs(self, soup, base_url):
         """
         FAQ 페이지에서 탭(카테고리) 정보를 추출하여 각각 크롤링하는 함수.
