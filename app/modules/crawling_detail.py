@@ -453,49 +453,39 @@ class BaseScraper:
 
         return extracted_data
 
-
-    def extract_contact_info(self, soup, parent_tag="div", parent_class="textBox", contact_tag="ul", contact_class="contact", field_map=None):
+    def extract_contact_info(self, soup):
         """
-        범용적인 연락처 정보 추출 함수.
-
-        :param soup: BeautifulSoup 객체
-        :param parent_tag: 부모 태그 (예: "div")
-        :param parent_class: 부모 태그 클래스 (예: "textBox")
-        :param contact_tag: 연락처 정보를 포함한 태그 (예: "ul")
-        :param contact_class: 연락처 태그의 클래스 (예: "contact")
-        :param field_map: 특정 키워드를 기준으로 데이터를 저장할 매핑 (예: {"위치": "관", "팩스": "Fax)", "전화번호": "tel"})
-        :return: {"위치": "...", "전화번호": "...", "팩스": "...", "이메일": "..."} 형태의 딕셔너리
+        문의(연락처) 정보를 추출하는 함수.
+        여러 개의 `contact2` 블록이 존재할 수 있으므로 리스트로 저장함.
         """
-        if field_map is None:
-            field_map = {
-                "위치": "관",
-                "팩스": "Fax)",
-                "전화번호": "tel",
-                "이메일": "@"
-            }
+        contact_sections = soup.find_all("div", class_="contact2")  # ✅ 여러 개의 contact2를 가져옴
+        contact_list = []
 
-        contact_info = {}
-        parent_section = soup.find(parent_tag, class_=parent_class)
-        if parent_section:
-            contact_section = parent_section.find(contact_tag, class_=contact_class)
-            if contact_section:
-                for li in contact_section.find_all("li"):
-                    text = clean_text(li.get_text(strip=True))
+        for section in contact_sections:
+            contact_info = {}
 
-                    # ✅ 이메일 처리
-                    if field_map["이메일"] in text:
-                        email_link = li.find("a")
-                        if email_link:
-                            contact_info["이메일"] = email_link.get("href").replace("mailto:", "").strip()
-                        continue  # 이메일을 찾으면 다른 필드 매칭 건너뜀
+            # ✅ 부서 정보 (place)
+            place_element = section.find("li", class_="place")
+            if place_element:
+                contact_info["부서"] = place_element.get_text(strip=True).replace("\n", " ")
 
-                    # ✅ field_map 기준으로 값 매핑
-                    for field, keyword in field_map.items():
-                        if keyword in text:
-                            contact_info[field] = text.replace(keyword, "").strip()
+            # ✅ 전화번호 정보 (tel)
+            tel_element = section.find("li", class_="tel")
+            if tel_element:
+                tel_texts = [tel.get_text(strip=True) for tel in tel_element.find_all("li")]
+                contact_info["전화번호"] = ", ".join(tel_texts)  # 여러 개의 전화번호를 쉼표로 구분
 
-        return contact_info if contact_info else None
+            # ✅ 이메일 정보 (email)
+            email_element = section.find("li", class_="email")
+            if email_element:
+                email_link = email_element.find("a")
+                if email_link:
+                    contact_info["이메일"] = email_link["href"].replace("mailto:", "").strip()
 
+            if contact_info:
+                contact_list.append(contact_info)  # ✅ 리스트에 추가
+
+        return contact_list if contact_list else None  # ✅ 리스트 반환 (없으면 None)
 
     def process_links_and_crawl(self, soup, parent_tag, parent_class, title_tag, title_class, link_tag, link_class, base_url, category, subcategory, title):
         """
@@ -726,25 +716,21 @@ class DetailScraper(BaseScraper):
         # ✅ 일반 텍스트 정보 수집
         descriptions.extend(self.extract_text(soup, "div", "textBox", "p"))
 
-        # ✅ 연락처 정보 추출 
-        contact_info = self.extract_contact_info(
-            soup,
-            parent_tag="div",
-            parent_class="textBox",
-            contact_tag="ul",
-            contact_class="contact",
-            field_map={
-                "위치": "관",
-                "팩스": "Fax)",
-                "전화번호": "tel",
-                "이메일": "@"
-            }
-        )
-<<<<<<< HEAD
-        
-        # ✅ 연
-=======
->>>>>>> origin/sorin
+
+        # ✅ 기존 extract_key_value() 제거
+        contact_info = self.extract_contact_info(soup)  # 새롭게 구현한 함수 적용
+
+        # ✅ detail_data.json 저장 시 리스트 형태 그대로 반영
+        self.details.append({
+            "category": category,
+            "subcategory": subcategory,
+            "title": title,
+            "tab": tab,
+            "url": url,
+            "description": descriptions,
+            "contact": contact_info if contact_info else None  # 리스트 형태로 저장
+        })
+
 
         # ✅ 테이블 데이터 추출 (guideTable type2)
         table_data = self.extract_table(soup, "div", "guideTable type2", "table")
