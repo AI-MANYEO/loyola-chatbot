@@ -57,6 +57,12 @@ def build_ui(chatbot_interface):
 
         chat_history = gr.State([])
 
+        def add_user_message(user_message, history):
+            # 사용자의 질문을 즉시 추가
+            # history = history + [(user_message, None)]
+            history = history + [{"role": "user", "content": user_message}]
+            return gr.update(value=history), history 
+
         # Title with logo on the left (updated to use the new image)
         with gr.Row():
             gr.HTML("""
@@ -69,7 +75,7 @@ def build_ui(chatbot_interface):
             """)
 
         # Chat history
-        chatbot = gr.Chatbot(label="채팅 기록", elem_id="chat-container")
+        chatbot = gr.Chatbot(label="채팅 기록", elem_id="chat-container", type="messages")
 
         # Input and buttons
         with gr.Row():
@@ -84,17 +90,27 @@ def build_ui(chatbot_interface):
 
         # Textbox에서 Enter 키로 메시지를 전송
         user_input.submit(
+            add_user_message,
+            inputs=[user_input, chat_history],
+            outputs=[chatbot, chat_history]
+        ).then(
             chatbot_interface,
             inputs=[user_input, chat_history],
             outputs=[user_input, chatbot]
         )
-        
-        # Button events
+
+        # Send Button events
         send_btn.click(
+            add_user_message,
+            inputs=[user_input, chat_history],
+            outputs=[chatbot, chat_history]
+        ).then(
             chatbot_interface,
             inputs=[user_input, chat_history],
             outputs=[user_input, chatbot]
         )
+
+        # Clear Button events
         clear_btn.click(
             lambda: (None, []),
             inputs=None,
